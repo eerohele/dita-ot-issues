@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "dtd/concept.dtd">
+<concept id="table" xml:lang="en-us">
+  <title>Table</title>
+  <conbody>
+    <table>
+      <tgroup cols="15">
+        <colspec colnum="1" colwidth="16%" colname="c1"/>
+        <colspec colnum="2" colwidth="6%" colname="c2"/>
+        <colspec colnum="3" colwidth="6%" colname="c3"/>
+        <colspec colnum="4" colwidth="6%" colname="c4"/>
+        <colspec colnum="5" colwidth="6%" colname="c5"/>
+        <colspec colnum="6" colwidth="6%" colname="c6"/>
+        <colspec colnum="7" colwidth="6%" colname="c7"/>
+        <colspec colnum="8" colwidth="6%" colname="c8"/>
+        <colspec colnum="9" colwidth="6%" colname="c9"/>
+        <colspec colnum="10" colwidth="6%" colname="c10"/>
+        <colspec colnum="11" colwidth="6%" colname="c11"/>
+        <colspec colnum="12" colwidth="6%" colname="c12"/>
+        <colspec colnum="13" colwidth="6%" colname="c13"/>
+        <colspec colnum="14" colwidth="6%" colname="c14"/>
+        <colspec colnum="15" colwidth="6%" colname="c15"/>
+        <thead>
+          <row>
+            <entry align="center" morerows="1">y-axis divisions</entry>
+            <entry align="center" namest="c2" nameend="c15">x-axis divisions</entry>
+          </row>
+          <row>
+            <entry align="center">6</entry>
+            <entry align="center">8</entry>
+            <entry align="center">10</entry>
+            <entry align="center">12</entry>
+            <entry align="center">16</entry>
+            <entry align="center">20</entry>
+            <entry align="center">24</entry>
+            <entry align="center">1D</entry>
+            <entry align="center">2D</entry>
+            <entry align="center">3D</entry>
+            <entry align="center">4D</entry>
+            <entry align="center">5D</entry>
+            <entry align="center">6D</entry>
+            <entry align="center">7D</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry align="center"><b>6</b></entry>
+            <entry align="center"><xref href="../../images/graphs/gc3_0606.ps" format="ps" scope="external">6x6</xref></entry>
+            <entry align="center"><xref href="../../images/graphs/gc3_0806.ps" format="ps" scope="external">8x6</xref></entry>
+            <entry align="center"><xref href="../../images/graphs/gc3_1006.ps" format="ps" scope="external">10x6</xref></entry>
+            <entry align="center"><xref href="../../images/graphs/gc3_1206.ps" format="ps" scope="external">12x6</xref></entry>
+            <entry align="center"><xref href="../../images/graphs/gc3_1606.ps" format="ps" scope="external">16x6</xref></entry>
+            <entry align="center"><xref href="../../images/graphs/gc3_2006.ps" format="ps" scope="external">20x6</xref></entry>
+            <entry align="center"><xref href="../../images/graphs/gc3_2406.ps" format="ps" scope="external">24x6</xref></entry>
+            <entry align="center"><xref href="../../images/graphs/gc3_1D06.ps" format="ps" scope="external">1Dx6</xref></entry>
+            <entry align="center"><xref href="../../images/graphs/gc3_2D06.ps" format="ps" scope="external">2Dx6</xref></entry>
+            <entry align="center"><xref href="../../images/graphs/gc3_3D06.ps" format="ps" scope="external">3Dx6</xref></entry>
+            <entry align="center"><xref href="../../images/graphs/gc3_4D06.ps" format="ps" scope="external">4Dx6</xref></entry>
+            <entry align="center"><xref href="../../images/graphs/gc3_5D06.ps" format="ps" scope="external">5Dx6</xref></entry>
+            <entry align="center"><xref href="../../images/graphs/gc3_6D06.ps" format="ps" scope="external">6Dx6</xref></entry>
+            <entry align="center"><xref href="../../images/graphs/gc3_7D06.ps" format="ps" scope="external">7Dx6</xref></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </conbody>
+</concept>

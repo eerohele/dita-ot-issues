@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<task id="trial1xsd" xml:lang="en-us" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd">
+ <title>Trying ant</title>
+ <shortdesc>Shortdesc: Trying ant</shortdesc>
+ <taskbody>
+  <steps>
+   <stepsection>In /home/ke/practice/xml/dita create dita trial files based on example from ~/dita-ot/DITA-OT1.5.4/doc/userguide.pdf: trial1.ditamap, trial1t.xml, trial1ant.xml</stepsection>
+   <step><cmd>in dita-ot dir, run ./startcmd.sh which establishes a shell (DITA_HOME added in startcmd.sh) </cmd></step>
+   <step><cmd>on the just opened shell, run ant -f /home/ke/practice/xml/dita/trial1ant.xml</cmd></step>
+  </steps>
+  <result>According to the settings in trial1ant.xml, a pdf file trial1a.pdf  (same name as the input trial1a.ditamap with ditamap replaced by pdf) is generated in /home/ke/practice/xml/dita/out.<draft-comment>Try &lt;draft-comment&gt;</draft-comment></result>
+ </taskbody>
+</task>

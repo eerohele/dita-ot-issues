@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+
+<topic id="quotes" xml:lang="en-us">
+  <title>Quotes</title>
+
+  <body>
+    <lq reftitle="lq with no @href, no @scope, and no @format">For us, there is no longer a fundamental mystery about Life. It is all the process of extraordinary eruptions of information, and it is information which gives us this fantastically rich, complex world in which we live; but at the same time that we've discovered that we are destroying it at a rate that has no precedent in history, unless you go back to the point when we are hit by an asteroid!</lq>
+
+    <lq reftitle="lq with no @scope and @format='dita'"
+      href="life.xml#universe/everything" format="dita">For us, there is no longer a fundamental mystery about Life. It is all the process of extraordinary eruptions of information, and it is information which gives us this fantastically rich, complex world in which we live; but at the same time that we've discovered that we are destroying it at a rate that has no precedent in history, unless you go back to the point when we are hit by an asteroid!</lq>
+
+    <lq reftitle="lq with @scope='local' and @format='dita'"
+      href="life.xml#universe/everything" scope="local" format="dita">For us, there is no longer a fundamental mystery about Life. It is all the process of extraordinary eruptions of information, and it is information which gives us this fantastically rich, complex world in which we live; but at the same time that we've discovered that we are destroying it at a rate that has no precedent in history, unless you go back to the point when we are hit by an asteroid!</lq>
+
+    <lq reftitle="lq with @scope='peer' and @format='html'"
+      href="index.html" scope="peer" format="html">For us, there is no longer a fundamental mystery about Life. It is all the process of extraordinary eruptions of information, and it is information which gives us this fantastically rich, complex world in which we live; but at the same time that we've discovered that we are destroying it at a rate that has no precedent in history, unless you go back to the point when we are hit by an asteroid!</lq>
+
+    <lq reftitle="lq with @scope='external' and no @format"
+      href="http://en.wikiquote.org/wiki/Douglas_Adams#Life.2C_the_Universe_and_Everything_.282001.29" scope="external">For us, there is no longer a fundamental mystery about Life. It is all the process of extraordinary eruptions of information, and it is information which gives us this fantastically rich, complex world in which we live; but at the same time that we've discovered that we are destroying it at a rate that has no precedent in history, unless you go back to the point when we are hit by an asteroid!</lq>
+
+    <lq reftitle="lq with no @scope and format='html'"
+      href="http://en.wikiquote.org/wiki/Douglas_Adams#Life.2C_the_Universe_and_Everything_.282001.29" format="html">For us, there is no longer a fundamental mystery about Life. It is all the process of extraordinary eruptions of information, and it is information which gives us this fantastically rich, complex world in which we live; but at the same time that we've discovered that we are destroying it at a rate that has no precedent in history, unless you go back to the point when we are hit by an asteroid!</lq>
+
+    <lq href="" reftitle="lq with empty @href">no @href</lq>
+    <lq href="  " reftitle="lq with space @href">space @href</lq>
+
+    <section>
+      <title>Regular <codeph>&lt;xref&gt;</codeph> for comparison</title>
+      <p><xref href="life.xml#universe/everything"/></p>
+      <p><xref href="">xref with empty @href</xref></p>
+      <p><xref href="index.html" scope="peer" format="html">Index</xref></p>
+    </section>
+
+    <section id="quote">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.</p>
+    </section>
+  </body>
+</topic>
+

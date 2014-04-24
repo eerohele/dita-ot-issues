@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_a5r_wvh_gm">
+  <title>Indirect Keyref Test</title>
+  <body>
+    <p>This set of maps and topics exercises the use of indirect key references in navigation maps and key references to such keydefs.</p>
+    <p>The basic pattern is:<ul id="ul_unx_yvh_gm">
+      <li>A resource-only key definition to a resource</li>
+      <li>A navigation topicref that references the resource-only key and specifies a different key name.</li>
+      <li>XRefs to the topic reference the navigation key, not the resource-only key</li>
+      </ul></p>
+  </body>
+</topic>

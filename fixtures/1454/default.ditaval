@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<val>
+  <prop action="flag" att="audience" val="my-audience" color="red">
+    <startflag>
+      <alt-text>my-audience (</alt-text>
+    </startflag>
+    <endflag>
+      <alt-text>)</alt-text>
+    </endflag>
+  </prop>
+</val>

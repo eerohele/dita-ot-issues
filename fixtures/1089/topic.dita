@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+
+<topic id="topic" xml:lang="en-us">
+  <title>Topic</title>
+
+  <body>
+    <fig>
+      <image href="images/ghost.jpg" width="250px" height="250px"/>
+    </fig>
+  </body>
+</topic>

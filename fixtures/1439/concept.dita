@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_t5y_wpz_x3">
+ <title>A concept</title>
+ <shortdesc/>
+ <conbody>
+  <p>A simple concept with a link to <xref keyref="ncbi"/></p>
+ </conbody>
+</concept>

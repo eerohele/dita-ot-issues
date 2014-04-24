@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+
+<map id="id-1103" title="dita-ot/dita-ot #1103">
+  <topicref href="quotes.xml"/>
+  <topicref href="life.xml"/>
+</map>

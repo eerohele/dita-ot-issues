@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+
+<topic id="topic1" xml:lang="en-us">
+  <title>Topic 1</title>
+
+  <body>
+    <p>Hello, world 1!</p>
+
+    <simpletable>
+     <sthead>
+      <stentry id="sthead_stentry">Type style</stentry>
+      <stentry>Elements used</stentry>
+     </sthead>
+     <strow>
+      <stentry id="strow_stentry">Bold</stentry>
+      <stentry>b</stentry>
+     </strow>
+     <strow>
+      <stentry>Italic</stentry>
+      <stentry>i</stentry>
+     </strow>
+     <strow>
+      <stentry>Underlined</stentry>
+      <stentry>u</stentry>
+     </strow>
+    </simpletable>
+
+    <table>
+      <tgroup cols="2">
+        <thead>
+          <row>
+            <entry id="thead_entry">Type style</entry>
+            <entry>Elements used</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry id="tbody_entry">Bold</entry>
+            <entry>b</entry>
+          </row>
+          <row>
+            <entry>Italic</entry>
+            <entry>i</entry>
+          </row>
+          <row>
+            <entry>Underlined</entry>
+            <entry>u</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <dl>
+      <dlhead>
+        <dthd>Image File View Selection</dthd>
+        <ddhd>Resulting Information</ddhd>
+      </dlhead>
+      <dlentry id="dlentry_id">
+        <dt>File Type</dt>
+        <dd>Image's file extension</dd>
+      </dlentry>
+      <dlentry>
+        <dt>Image Class</dt>
+        <dd>Image is raster, vector, metafile or 3D</dd>
+      </dlentry>
+      <dlentry>
+        <dt>Number of pages</dt>
+        <dd>Number of pages in the image</dd>
+      </dlentry>
+      <dlentry>
+        <dt>Fonts</dt>
+        <dd>Names of the fonts contained within a vector image</dd>
+      </dlentry>
+    </dl>
+  </body>
+</topic>

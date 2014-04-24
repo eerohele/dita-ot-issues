@@ -1,0 +1,4 @@
+<val>
+  <prop att="props" val="hello" action="exclude"/>
+  <prop att="props" val="world" action="include"/>
+</val>

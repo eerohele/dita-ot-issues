@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Test of Indirect Navigation Keyrefs</title>
+  <mapref href="topics/keydef-map-level-01.ditamap" format="ditamap"/>
+  <topicgroup>
+    <topicmeta><navtitle>Key definitions</navtitle></topicmeta>
+    <keydef keys="topic-01-res"
+       href="topics/topic-01.dita"
+      />
+    <keydef keys="topic-02-res"
+       href="topics/topic-02.dita"
+      />
+    <keydef keys="xrefs-res"
+       href="topics/xrefs-to-topics.dita"
+      />
+  </topicgroup>
+  <topicref href="topics/root-topic.dita">
+    <topicref keyref="xrefs-res"/>
+    <topicref keyref="topic-01-res" keys="topic-01-nav"/>
+    <topicref keyref="topic-02-res" keys="topic-02-nav"/>
+    <topicref keyref="topic-03-res" keys="topic-03-nav"/>
+  </topicref>
+</map>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "dtd/concept.dtd">
+<concept id="table" xml:lang="en-us">
+  <title>Table</title>
+  <conbody>
+    <section>
+      <title><codeph>&lt;table&gt;</codeph> with <codeph>&lt;desc&gt;</codeph></title>
+
+      <table>
+        <desc>
+          <p>Gestation is the carrying of an embryo or fetus inside female viviparous animals, including mammals, as well as some non-mammalian species. Mammals during pregnancy can have one or more gestations at the same time (multiple gestations).</p>
+          <lq href="http://en.wikipedia.org/wiki/Gestation" reftitle="Gestation">
+            A viviparous animal is an animal employing vivipary: the embryo develops inside the body of the mother, as opposed to outside in an egg (ovipary).
+          </lq>
+        </desc>
+        <tgroup cols="2">
+          <colspec colname="COLSPEC0" colwidth="121*"/>
+          <colspec colname="COLSPEC1" colwidth="76*"/>
+          <thead>
+            <row>
+              <entry colname="COLSPEC0" valign="top">Animal</entry>
+              <entry colname="COLSPEC1" valign="top">Gestation</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Elephant (African and Asian)</entry>
+              <entry>19-22 months</entry>
+            </row>
+            <row>
+              <entry>Giraffe</entry>
+              <entry>15 months</entry>
+            </row>
+            <row>
+              <entry>Rhinoceros</entry>
+              <entry>14-16 months</entry>
+            </row>
+            <row>
+              <entry>Hippopotamus</entry>
+              <entry>7 1/2 months</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+
+    <section>
+      <title><codeph>&lt;table&gt;</codeph> with <codeph>&lt;title&gt;</codeph> and <codeph>&lt;desc&gt;</codeph></title>
+
+      <table>
+        <title>Animal gestation periods</title>
+        <desc>
+          <p>Gestation is the carrying of an embryo or fetus inside female viviparous animals, including mammals, as well as some non-mammalian species. Mammals during pregnancy can have one or more gestations at the same time (multiple gestations).</p>
+          <lq href="http://en.wikipedia.org/wiki/Gestation" reftitle="Gestation">
+            A viviparous animal is an animal employing vivipary: the embryo develops inside the body of the mother, as opposed to outside in an egg (ovipary).
+          </lq>
+        </desc>
+        <tgroup cols="2">
+          <colspec colname="COLSPEC0" colwidth="121*"/>
+          <colspec colname="COLSPEC1" colwidth="76*"/>
+          <thead>
+            <row>
+              <entry colname="COLSPEC0" valign="top">Animal</entry>
+              <entry colname="COLSPEC1" valign="top">Gestation</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Elephant (African and Asian)</entry>
+              <entry>19-22 months</entry>
+            </row>
+            <row>
+              <entry>Giraffe</entry>
+              <entry>15 months</entry>
+            </row>
+            <row>
+              <entry>Rhinoceros</entry>
+              <entry>14-16 months</entry>
+            </row>
+            <row>
+              <entry>Hippopotamus</entry>
+              <entry>7 1/2 months</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </conbody>
+</concept>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+
+<topic id="topic" xml:lang="en-us">
+  <title>Topic 1</title>
+
+  <body>
+    <p>Hello, world 1!</p>
+  </body>
+
+  <related-links>
+    <linklist duplicates="no">
+      <title>Example links</title>
+      <desc>These links will always appear in this order.</desc>
+      <link href="topic2.dita" role="next"/>
+      <link href="topic2.dita"/>
+      <link href="topic2.dita"/>
+      <link href="http://www.example.org" scope="external">
+        <linktext>Example 1</linktext>
+      </link>
+      <link href="http://www.example.com" scope="external">
+        <linktext>Example 2</linktext>
+      </link>
+    </linklist>
+<!--
+    <linkpool>
+      <link href="topic3.dita" role="next"/>
+      <link href="topic3.dita"/>
+      <link href="topic3.dita"/>
+      <link href="http://www.example.net" scope="external">
+        <linktext>Example 3</linktext>
+      </link>
+      <link href="http://www.example.gov" scope="external">
+        <linktext>Example 4</linktext>
+      </link>
+     </linkpool>
+-->
+  </related-links>
+</topic>

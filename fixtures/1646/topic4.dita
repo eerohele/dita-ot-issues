@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+
+<topic id="topic" xml:lang="en-us">
+  <title>Topic 4</title>
+
+  <body>
+    <p>Hello, world 4!</p>
+    <p><xref keyref="autobots/optimusPrime"/></p>
+    <p><xref keyref="decepticons/megatron"/></p>
+    <p><xref keyref="cybertrons/ultraMagnus"/></p>
+    <p><xref keyref="decepticons"/></p>
+  </body>
+</topic>

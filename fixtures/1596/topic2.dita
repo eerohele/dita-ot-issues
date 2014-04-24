@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+
+<topic id="topic2" xml:lang="en-us">
+  <title>Topic 2</title>
+
+  <body>
+    <p>Hello, world 2!</p>
+    <ul>
+      <li><xref href="topic1.dita#topic1/sthead_stentry">sthead_stentry</xref></li>
+      <li><xref href="topic1.dita#topic1/strow_stentry">strow_stentry</xref></li>
+      <li><xref href="topic1.dita#topic1/thead_entry">thead_entry</xref></li>
+      <li><xref href="topic1.dita#topic1/tbody_entry">tbody_entry</xref></li>
+      <li><xref href="topic1.dita#topic1/dlentry_id">dlentry</xref></li>
+    </ul>
+  </body>
+</topic>

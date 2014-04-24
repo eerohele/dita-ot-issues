@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+
+<map id="id-1646" title="dita-ot/dita-ot #1646">
+  <topicref href="topic1.dita" navtitle="Autobots" keys="autobots"/>
+
+  <topicref href="topic2.dita" keys="decepticons">
+    <topicmeta>
+      <navtitle>Decepticons</navtitle>
+    </topicmeta>
+  </topicref>
+
+  <topicref href="topic3.dita" keys="cybertrons"/>
+
+  <topicref href="topic4.dita"/>
+</map>

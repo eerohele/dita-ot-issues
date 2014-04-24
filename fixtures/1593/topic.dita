@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+
+<topic id="topic" xml:lang="en-us">
+  <title>Topic</title>
+
+  <body>
+    <p>
+      <xref href="images/img.jpg" format="jpg"><image href="images/imgthumb.jpg"/></xref>
+    </p>
+  </body>
+</topic>

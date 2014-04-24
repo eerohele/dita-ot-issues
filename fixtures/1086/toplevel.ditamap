@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="toplevel" xml:lang="en" platform="linux">
+  <title>Help</title>
+  <topicmeta>
+    <source href="http://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture">Somewhere, someplace</source>
+    <prodinfo>
+     <prodname>Transcription Assistant</prodname>
+     <vrmlist><vrm version="1" release="3" modification="1"/></vrmlist>
+     <platform>Linux</platform>
+     <prognum>SN-12345T</prognum>
+    </prodinfo>
+    <othermeta name="HELLO" content="WORLD"/>
+  </topicmeta>
+  <topicref format="dita" href="direct-child.xml" type="concept"/>
+  <topicref format="ditamap" href="nested.ditamap"/>
+</map>

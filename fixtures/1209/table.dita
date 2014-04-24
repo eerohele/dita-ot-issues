@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "dtd/concept.dtd">
+<concept id="table" xml:lang="en-us">
+  <title>Table</title>
+  <conbody>
+    <table>
+      <tgroup cols="2">
+        <colspec colname="COLSPEC0" colwidth="121*"/>
+        <colspec colname="COLSPEC1" colwidth="76*"/>
+        <thead>
+          <row>
+            <entry colname="COLSPEC0" valign="top">Animal</entry>
+            <entry colname="COLSPEC1" valign="top">Gestation</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>Elephant (African and Asian)</entry>
+            <entry>19-22 months</entry>
+          </row>
+          <row>
+            <entry>Giraffe</entry>
+            <entry>15 months</entry>
+          </row>
+          <row>
+            <entry>Rhinoceros</entry>
+            <entry>14-16 months</entry>
+          </row>
+          <row>
+            <entry>Hippopotamus</entry>
+            <entry>7 1/2 months</entry>
+          </row>
+          <row>
+            <entry>Elephant (African and Asian)</entry>
+            <entry>19-22 months</entry>
+          </row>
+          <row>
+            <entry>Giraffe</entry>
+            <entry>15 months</entry>
+          </row>
+          <row>
+            <entry>Rhinoceros</entry>
+            <entry>14-16 months</entry>
+          </row>
+          <row>
+            <entry>Hippopotamus</entry>
+            <entry>7 1/2 months</entry>
+          </row>
+          <row>
+            <entry>Elephant (African and Asian)</entry>
+            <entry>19-22 months</entry>
+          </row>
+          <row>
+            <entry>Giraffe</entry>
+            <entry>15 months</entry>
+          </row>
+          <row>
+            <entry>Rhinoceros</entry>
+            <entry>14-16 months</entry>
+          </row>
+          <row>
+            <entry>Hippopotamus</entry>
+            <entry>7 1/2 months</entry>
+          </row>
+          <row>
+            <entry>Elephant (African and Asian)</entry>
+            <entry>19-22 months</entry>
+          </row>
+          <row>
+            <entry>Giraffe</entry>
+            <entry>15 months</entry>
+          </row>
+          <row>
+            <entry>Rhinoceros</entry>
+            <entry>14-16 months</entry>
+          </row>
+          <row>
+            <entry>Hippopotamus</entry>
+            <entry>7 1/2 months</entry>
+          </row>
+          <row>
+            <entry>Elephant (African and Asian)</entry>
+            <entry>19-22 months</entry>
+          </row>
+          <row>
+            <entry>Giraffe</entry>
+            <entry>15 months</entry>
+          </row>
+          <row>
+            <entry>Rhinoceros</entry>
+            <entry>14-16 months</entry>
+          </row>
+          <row>
+            <entry>Hippopotamus</entry>
+            <entry>7 1/2 months</entry>
+          </row>
+          <row>
+            <entry>Elephant (African and Asian)</entry>
+            <entry>19-22 months</entry>
+          </row>
+          <row>
+            <entry>Giraffe</entry>
+            <entry>15 months</entry>
+          </row>
+          <row>
+            <entry>Rhinoceros</entry>
+            <entry>14-16 months</entry>
+          </row>
+          <row>
+            <entry>Hippopotamus</entry>
+            <entry>7 1/2 months</entry>
+          </row>
+          <row>
+            <entry>Elephant (African and Asian)</entry>
+            <entry>19-22 months</entry>
+          </row>
+          <row>
+            <entry>Giraffe</entry>
+            <entry>15 months</entry>
+          </row>
+          <row>
+            <entry>Rhinoceros</entry>
+            <entry>14-16 months</entry>
+          </row>
+          <row>
+            <entry>Hippopotamus</entry>
+            <entry>7 1/2 months</entry>
+          </row>
+          <row>
+            <entry>Elephant (African and Asian)</entry>
+            <entry>19-22 months</entry>
+          </row>
+          <row>
+            <entry>Giraffe</entry>
+            <entry>15 months</entry>
+          </row>
+          <row>
+            <entry>Rhinoceros</entry>
+            <entry>14-16 months</entry>
+          </row>
+          <row>
+            <entry>Hippopotamus</entry>
+            <entry>7 1/2 months</entry>
+          </row>
+          <row>
+            <entry>Elephant (African and Asian)</entry>
+            <entry>19-22 months</entry>
+          </row>
+          <row>
+            <entry>Giraffe</entry>
+            <entry>15 months</entry>
+          </row>
+          <row>
+            <entry>Rhinoceros</entry>
+            <entry>14-16 months</entry>
+          </row>
+          <row>
+            <entry>Hippopotamus</entry>
+            <entry>7 1/2 months</entry>
+          </row>
+          <row>
+            <entry>Elephant (African and Asian)</entry>
+            <entry>19-22 months</entry>
+          </row>
+          <row>
+            <entry>Giraffe</entry>
+            <entry>15 months</entry>
+          </row>
+          <row>
+            <entry>Rhinoceros</entry>
+            <entry>14-16 months</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </conbody>
+</concept>

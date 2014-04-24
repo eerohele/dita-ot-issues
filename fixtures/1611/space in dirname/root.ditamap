@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+
+<map id="id-1611" title="dita-ot/dita-ot #1611">
+  <topicref href="topic1.dita"/>
+  <topicref href="topic2.dita"/>
+  <topicref href="topic3.dita"/>
+
+  <reltable>
+    <relheader>
+      <relcolspec type="topic"/>
+      <relcolspec type="topic"/>
+      <relcolspec type="topic"/>
+    </relheader>
+    <relrow>
+      <relcell>
+        <topicref href="topic1.dita"/>
+      </relcell>
+      <relcell>
+        <topicref href="topic2.dita"/>
+      </relcell>
+      <relcell>
+        <topicref href="topic3.dita"/>
+      </relcell>
+    </relrow>
+  </reltable>
+</map>

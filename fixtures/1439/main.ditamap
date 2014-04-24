@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Keydef on exernal content</title>
+    <keydef keys="ncbi" href="http://www.ncbi.nlm.nih.gov/" scope="external" format="html">
+        <topicmeta>
+            <navtitle>NCBI web site</navtitle>
+            <linktext>NCBI web site</linktext>
+        </topicmeta>
+    </keydef>
+    <topicref href="concept.dita" type="concept"/>
+    <topicref keyref="ncbi"/>
+</map>

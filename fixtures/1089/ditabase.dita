@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE dita PUBLIC "-//OASIS//DTD DITA 1.2 Composite//EN"  "ditabase.dtd">
+
+<dita>
+  <topic id="ditabase" xml:lang="en-us">
+    <title>DITA</title>
+
+    <body>
+      <fig>
+        <image href="images/ghost.jpg" width="250px" height="250px"/>
+      </fig>
+    </body>
+  </topic>
+</dita>

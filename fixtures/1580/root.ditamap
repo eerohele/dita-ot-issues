@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+
+<map id="id-1580" title="dita-ot/dita-ot #1580">
+  <topicset id="hello" navtitle="Moomin" linking="sourceonly" otherprops="little-my" rev="snork" product="moomin">
+    <topicref href="topic1.dita"/>
+  </topicset>
+
+  <topicref href="topic2.dita"/>
+
+  <topicsetref href="#hello" linking="none" navtitle="Pokémon" otherprops="pikachu" rev="bulbasaur" product="pokemon" props="hello"/>
+
+  <topicsetref href="#hello" props="hello">
+    <topicmeta>
+      <navtitle>Transformers</navtitle>
+      <linktext>Transforming alien robots</linktext>
+    </topicmeta>
+    <data name="optimusPrime"/>
+  </topicsetref>
+
+  <topicset id="world">
+    <topicmeta product="pokemon">
+      <navtitle>Squirtle</navtitle>
+    </topicmeta>
+    <topicref href="topic3.dita"/>
+  </topicset>
+
+  <topicsetref href="#world" props="world">
+    <topicmeta product="transformers">
+      <navtitle>Galvatron</navtitle>
+    </topicmeta>
+  </topicsetref>
+</map>

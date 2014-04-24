@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+
+<map id="id-1596" title="dita-ot/dita-ot #1596">
+  <topicref href="topic1.dita"/>
+  <topicref href="topic2.dita"/>
+</map>

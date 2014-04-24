@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Keydef Map Level 2</title>
+  <keydef href="topic-03.dita" keys="topic-03-res"/>
+  <topicref keyref="topic-01-res" keys="topic-04-nav"/>
+</map>

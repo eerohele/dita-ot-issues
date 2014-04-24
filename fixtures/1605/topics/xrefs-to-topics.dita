@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_ztf_twh_gm">
+  <title>XRefs To Topics</title>
+  <body>
+    <p>This topic contains xrefs to the topics in the map using both the resource-only keys and the navigation keys.</p>
+    <p>XRef to topic 01 via navigation key: <xref keyref="topic-01-nav"/></p>
+    <p>XRef to topic 01 via resource key: <xref keyref="topic-01-res"/></p>
+    <p>XRef to topic 3 via resource key: <xref keyref="topic-03-res"/></p>
+    <p>XRef to topic 3 via navigation key: <xref keyref="topic-03-nav"/></p>
+    <p>XRef to topic 4 via navigation key: <xref keyref="topic-04-nav"/></p>
+  </body>
+</topic>
