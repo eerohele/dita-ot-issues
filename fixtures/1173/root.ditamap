@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+
+<map id="map" title="DITA-OT Issue #1173">
+  <topicgroup collection-type="sequence">
+    <topicref href="topic1.dita"/>
+    <topicref href="topic2.dita"/>
+    <topicref href="topic3.dita"/>
+  </topicgroup>
+
+  <topichead collection-type="sequence">
+    <topicmeta>
+      <navtitle>topichead</navtitle>
+    </topicmeta>
+
+    <topicref href="topic4.dita"/>
+    <topicref href="topic5.dita"/>
+    <topicref href="topic6.dita"/>
+  </topichead>
+
+  <topicref collection-type="sequence" href="topic7.dita">
+    <topicmeta>
+      <navtitle>topicref</navtitle>
+    </topicmeta>
+
+    <topicref href="topic8.dita"/>
+    <topicref href="topic9.dita"/>
+  </topicref>
+
+  <topicset id="sequence" collection-type="sequence">
+    <topicmeta>
+      <navtitle>topicset</navtitle>
+    </topicmeta>
+
+    <topicref href="topic10.dita"/>
+    <topicref href="topic11.dita"/>
+    <topicref href="topic12.dita"/>
+  </topicset>
+</map>

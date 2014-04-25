@@ -2,10 +2,10 @@
 
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 
-<topic id="topic2" xml:lang="en-us">
-  <title>Topic 2</title>
+<topic id="topic6" xml:lang="en-us">
+  <title>Topic 6</title>
 
   <body>
-    <p>Hello, world 2!</p>
+    <p>Hello, world 6!</p>
   </body>
 </topic>
