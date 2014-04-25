@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+
+<topic id="topic" xml:lang="en-us">
+  <title>Topic 1</title>
+
+  <body>
+    <ol>
+      <li>
+        <p>One</p>
+      </li>
+      <li>
+        <p>Two</p>
+        <ol>
+          <li>
+            <p>Three</p>
+          </li>
+          <li>
+            <p>Four</p>
+          </li>
+          <li>
+            <p>Five</p>
+          </li>
+          <li>
+            <p>Six</p>
+          </li>
+          <li>
+            <p>Seven</p>
+            <ol>
+              <li>
+                <p>Eight</p>
+              </li>
+              <li>
+                <p>Nine</p>
+              </li>
+              <li>
+                <p>Ten</p>
+              </li>
+            </ol>
+          </li>
+        </ol>
+      </li>
+    </ol>
+  </body>
+</topic>
