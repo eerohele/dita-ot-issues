@@ -21,7 +21,6 @@
 
     <propertyset id="dita.properties">
       <propertyref prefix="dost"/>
-      <propertyref builtin="commandline"/>
       <mapper type="glob" from="dost.*" to="*" />
     </propertyset>
   </target>
