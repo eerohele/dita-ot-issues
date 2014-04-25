@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<project name="dita-ot" default="build">
+  <macrodef name="dita-ot">
+    <attribute name="targets" default=""/>
+    <element name="properties"/>
+    <sequential>
+      <java classname="org.apache.tools.ant.launch.Launcher" fork="true" failonerror="true">
+        <jvmarg value="-Dant.library.dir=${ant.home}/lib"/>
+        <classpath>
+          <pathelement location="${ant.home}/lib/ant-launcher.jar"/>
+        </classpath>
+
+        <arg line="-lib ${dita.home}"/>
+        <arg line="-lib ${dita.home}/lib"/>
+        <!-- For DITA-OT < 2.0 -->
+        <arg line="-lib ${dita.home}/lib/saxon"/>
+        <!-- For DITA-OT < 1.6 -->
+        <arg line="-lib ${dita.home}/demo/fo/fop/lib"/>
+        <arg line="-buildfile ${dita.home}/build.xml"/>
+        <arg line="@{targets}"/>
+
+        <properties/>
+      </java>
+    </sequential>
+  </macrodef>
+</project>

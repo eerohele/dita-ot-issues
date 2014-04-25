@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<project name="dita-ot" default="build">
+<project name="dita-ot-issues" default="build">
+  <import file="macros.xml"/>
+
   <property environment="env"/>
   <property name="dita.home" location="${env.DITA_HOME}"/>
 
@@ -24,34 +26,25 @@
     </propertyset>
   </target>
 
-  <target name="build" depends="init, clean">
-    <java classname="org.apache.tools.ant.launch.Launcher" fork="true" failonerror="true">
-      <jvmarg value="-Dant.library.dir=${ant.home}/lib"/>
-      <classpath>
-        <pathelement location="${ant.home}/lib/ant-launcher.jar"/>
-      </classpath>
+  <target name="build" depends="init">
+    <property name="dost.ant.targets" value=""/>
 
-      <arg line="-lib ${dita.home}"/>
-      <arg line="-lib ${dita.home}/lib"/>
-      <!-- For DITA-OT < 2.0 -->
-      <arg line="-lib ${dita.home}/lib/saxon"/>
-      <!-- For DITA-OT < 1.6 -->
-      <arg line="-lib ${dita.home}/demo/fo/fop/lib"/>
-      <arg line="-buildfile ${dita.home}/build.xml"/>
+    <dita-ot targets="${dost.ant.targets}">
+      <properties>
+        <!--
+        Pass system properties defined in property files or prefixed with "dost."
+        to the forked Ant process
+        -->
+        <syspropertyset refid="dita.properties"/>
 
-      <!--
-      Pass system properties defined in property files or prefixed with "dost."
-      to the forked Ant process
-      -->
-      <syspropertyset refid="dita.properties"/>
-
-      <!--
-      Pass system properties passed on the command line to the forked Ant
-      process. These take precedence over properties defined in an Ant buildfile
-      or a property file.
-      -->
-      <syspropertyset refid="cli.properties"/>
-    </java>
+        <!--
+        Pass system properties passed on the command line to the forked Ant
+        process. These take precedence over properties defined in an Ant buildfile
+        or a property file.
+        -->
+        <syspropertyset refid="cli.properties"/>
+      </properties>
+    </dita-ot>
   </target>
 
   <target name="clean">
