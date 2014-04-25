@@ -22,7 +22,7 @@ By default, the buildfile looks for a DITA map called `root.ditamap` in the dire
 
 There's two ways to do that. The buildfile reads the `build.properties` file in the current directory and passes the properties in that file to DITA-OT. So, if a specific set of DITA properties needs to be set for an issue to occur, you can add them into the `build.properties` file for that issue.
 
-That means that to specify the name of your DITA file, you can add a build.properties file like this into the directory of the issue you're working on:
+That means that to specify the name of your DITA file, you can add a `build.properties` file like this into the directory of the issue you're working on:
 
     args.input = ${user.dir}/indirect-keyref-test.ditamap
     
@@ -38,7 +38,7 @@ You can also pass any DITA-OT properties as command-line arguments as you normal
 
     cd fixtures/1605
     ant -Dargs.input=$PWD/indirect-keyref-test.ditamap -Dtranstype=pdf2 -find
-    # On Windows, %CD% instead of $PWD
+    # On Windows, use %CD% instead of $PWD
 
 You can even specify which DITA-OT Ant targets to execute. For example, to only run the DITA-OT preprocessing stage, into `build.properties`, add:
 
