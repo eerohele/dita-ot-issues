@@ -46,8 +46,8 @@
     </dita-ot>
   </target>
 
-  <target name="clean">
-    <delete dir="${dita.temp.dir}" failonerror="false"/>
-    <delete dir="${output.dir}" failonerror="false"/>
+  <target name="clean" depends="init">
+    <delete dir="${dost.dita.temp.dir}" failonerror="false"/>
+    <delete dir="${dost.output.dir}" failonerror="false"/>
   </target>
 </project>
