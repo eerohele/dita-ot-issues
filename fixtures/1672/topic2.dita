@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+
+<topic id="topic2" xml:lang="en-us">
+  <title>Topic 2</title>
+
+  <body>
+    <fig id="fig-4">
+      <title>Fig-4</title>
+      <p>...</p>
+    </fig>
+
+    <table id="table-3">
+      <title>Table-3</title>
+
+      <tgroup cols="2">
+        <thead>
+          <row>
+            <entry>A</entry>
+            <entry>B</entry>
+          </row>
+        </thead>
+
+        <tbody>
+          <row>
+            <entry>C</entry>
+            <entry>D</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <p>Lorem ipsum<fn>Footnote without ID in Topic 2</fn></p>
+    <p>Lorem ipsum<fn id="fn-3">Footnote with ID in Topic 2</fn></p>
+    <p><xref href="#fn-3" type="fn">xref to fn-3</xref></p>
+
+    <fig id="fig-5">
+      <title>Fig-5</title>
+      <p>...</p>
+    </fig>
+  </body>
+</topic>

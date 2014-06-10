@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+
+<topic id="topic1" xml:lang="en-us">
+  <title>Topic 1</title>
+
+  <body>
+    <p>Lorem ipsum<fn>Footnote without ID in Topic 1</fn></p>
+    <p>Lorem ipsum<fn id="fn-1">Footnote with ID in Topic 1</fn></p>
+    <p><xref href="#fn-1" type="fn">xref to fn-1</xref></p>
+
+    <p>Lorem ipsum<fn callout="†">Footnote without ID and with callout in Topic 1 (unaffected)</fn></p>
+    <p>Lorem ipsum<fn id="fn-2" callout="†">Footnote with ID and with callout in Topic 1 (unaffected)</fn></p>
+    <p><xref href="#fn-2" type="fn">xref to fn-2</xref></p>
+
+    <fig id="fig-1">
+      <title>Fig-1</title>
+      <p>...</p>
+    </fig>
+
+    <fig id="fig-2">
+      <title>Fig-2</title>
+      <p>...</p>
+    </fig>
+
+    <fig id="fig-3">
+      <title>Fig-3</title>
+      <p>...</p>
+    </fig>
+
+    <table id="table-1">
+      <title>Table-1</title>
+
+      <tgroup cols="2">
+        <thead>
+          <row>
+            <entry>A</entry>
+            <entry>B</entry>
+          </row>
+        </thead>
+
+        <tbody>
+          <row>
+            <entry>C</entry>
+            <entry>D</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <table id="table-2">
+      <title>Table-2</title>
+
+      <tgroup cols="2">
+        <thead>
+          <row>
+            <entry>A</entry>
+            <entry>B</entry>
+          </row>
+        </thead>
+
+        <tbody>
+          <row>
+            <entry>C</entry>
+            <entry>D</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic>

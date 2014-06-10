@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+
+<topic id="topic3" xml:lang="en-us">
+  <title>Topic 3</title>
+
+  <body>
+    <ul>
+      <li><xref href="topic1.dita#topic1/fig-1"/></li>
+      <li><xref href="topic1.dita#topic1/fig-2"/></li>
+      <li><xref href="topic1.dita#topic1/fig-3"/></li>
+      <li><xref href="topic1.dita#topic1/table-1"/></li>
+      <li><xref href="topic1.dita#topic1/table-2"/></li>
+      <li><xref href="topic2.dita#topic2/fig-4"/></li>
+      <li><xref href="topic2.dita#topic2/table-3"/></li>
+      <li><xref href="topic2.dita#topic2/fig-5"/></li>
+    </ul>
+
+    <ul>
+      <li>xref to fn-1<xref href="topic1.dita#topic1/fn-1" type="fn"/></li>
+      <li>xref to fn-2<xref href="topic1.dita#topic1/fn-2" type="fn"/></li>
+      <li>xref to fn-3<xref href="topic2.dita#topic2/fn-3" type="fn"/></li>
+    </ul>
+
+    <p>Lorem ipsum<fn>Footnote without ID in Topic 3</fn></p>
+    <p>Lorem ipsum<fn id="fn-4">Footnote with ID in Topic 3</fn></p>
+    <p><xref href="#fn-4" type="fn">xref to fn-4</xref></p>
+
+    <p>Lorem ipsum<fn callout="‡">Another footnote without ID and with callout (unaffected)</fn></p>
+    <p>Lorem ipsum<fn id="fn-5" callout="‡">Another footnote with ID and with callout (unaffected)</fn></p>
+    <p><xref href="#fn-5" type="fn">xref to fn-5</xref></p>
+  </body>
+</topic>
