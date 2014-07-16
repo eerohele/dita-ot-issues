@@ -8,4 +8,15 @@
   <body>
     <p>Hello, world 1!</p>
   </body>
+
+  <related-links scope="external" format="html" id="foobar">
+    <linkpool collection-type="sequence">
+      <link href="http://www.example.org">
+        <linktext>Example 1</linktext>
+      </link>
+      <link href="http://www.example.com">
+        <linktext>Example 2</linktext>
+      </link>
+    </linkpool>
+  </related-links>
 </topic>
