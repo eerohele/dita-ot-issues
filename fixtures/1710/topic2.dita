@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+
+<topic id="topic2" xml:lang="ar">
+  <title>2 الموضوع</title>
+
+  <body>
+    <p>مرحبا، العالم 2!</p>
+  </body>
+</topic>
