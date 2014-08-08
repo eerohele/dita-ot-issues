@@ -8,5 +8,10 @@
     <publisher>Wayne Enterprises</publisher>
   </topicmeta>
 
-  <topicref href="topic1.dita"/>
+  <topicref href="topic1.dita">
+    <topicmeta>
+      <author>Alfred Pennyworth</author>
+      <category>Batcave</category>
+    </topicmeta>
+  </topicref>
 </map>
