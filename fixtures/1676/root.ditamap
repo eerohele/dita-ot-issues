@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+
+<bookmap id="bookmap">
+  <booktitle>
+    <mainbooktitle>Bookmap</mainbooktitle>
+  </booktitle>
+
+  <chapter href="topic1.dita" locktitle="yes">
+    <topicmeta>
+      <navtitle>Chapter 1 Title</navtitle>
+    </topicmeta>
+  </chapter>
+
+  <chapter href="topic2.dita" locktitle="yes">
+    <topicmeta>
+      <navtitle>Chapter 2 Title</navtitle>
+    </topicmeta>
+  </chapter>
+
+  <chapter href="topic3.dita" locktitle="yes">
+    <topicmeta>
+      <navtitle>Chapter 3 Title</navtitle>
+    </topicmeta>
+  </chapter>
+</bookmap>
