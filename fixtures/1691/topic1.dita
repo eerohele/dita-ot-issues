@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+
+<topic id="topic1" xml:lang="en-us">
+  <title>Topic 1</title>
+
+  <body>
+    <p>DOESN'T WORK: <xref href="topic2.dita#topic2/p-inside-conref-source">Link to <codeph>&lt;p id="inside-conref-source"&gt;</codeph> inside <filepath>topic2.dita</filepath>, which conrefs the parent element of <codeph>&lt;p id="inside-conref-source"&gt;</codeph>.</xref></p>
+
+    <section id="conref-source">
+      <p><xref href="#topic1/p-inside-conref-source">WORKS: Link inside conreffed content</xref></p>
+      <p id="p-inside-conref-source">Hello, world!</p>
+    </section>
+  </body>
+</topic>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+
+<topic id="topic2" xml:lang="en-us">
+  <title>Topic 2</title>
+
+  <body>
+    <p><xref href="#topic2/p-inside-conref-source">DOESN'T WORK: Link outside conreffed content</xref></p>
+    <section conref="topic1.dita#topic1/conref-source"/>
+  </body>
+</topic>
