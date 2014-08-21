@@ -13,13 +13,13 @@
     </topicmeta>
   </chapter>
 
-  <chapter href="topic2.dita" locktitle="yes">
+  <chapter href="topic1.dita" locktitle="yes">
     <topicmeta>
       <navtitle>Chapter 2 Title</navtitle>
     </topicmeta>
   </chapter>
 
-  <chapter href="topic3.dita" locktitle="yes">
+  <chapter href="topic1.dita" locktitle="yes">
     <topicmeta>
       <navtitle>Chapter 3 Title</navtitle>
     </topicmeta>
