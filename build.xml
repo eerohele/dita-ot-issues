@@ -36,7 +36,13 @@
     <property file="${user.dir}/build.properties" prefix="dost"/>
   </target>
 
-  <target name="init" depends="read-user-properties">
+  <target name="init">
+    <copy todir="${user.dir}">
+      <fileset dir="${basedir}/template" includes="*"/>
+    </copy>
+  </target>
+
+  <target name="build-init" depends="read-user-properties">
     <property file="build.properties" prefix="dost"/>
 
     <propertyset id="cli.properties">
@@ -49,7 +55,7 @@
     </propertyset>
   </target>
 
-  <target name="build" depends="init">
+  <target name="build" depends="build-init">
     <property name="dost.ant.targets" value=""/>
 
     <dita-ot targets="${dost.ant.targets}">
@@ -70,7 +76,7 @@
     </dita-ot>
   </target>
 
-  <target name="clean" depends="init">
+  <target name="clean" depends="build-init">
     <delete dir="${dost.dita.temp.dir}" failonerror="false"/>
     <delete dir="${dost.output.dir}" failonerror="false"/>
   </target>
