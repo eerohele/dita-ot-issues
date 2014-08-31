@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+
+<topic id="topic2" xml:lang="en-us">
+  <title>Topic 2</title>
+
+  <body>
+    <p><xref href="topic1.dita#topic1"/></p>
+    <p><xref href="topic3.dita#topic3"/></p>
+  </body>
+</topic>
