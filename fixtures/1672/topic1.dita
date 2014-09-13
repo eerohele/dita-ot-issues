@@ -13,6 +13,7 @@
     <p>Lorem ipsum<fn callout="†">Footnote without ID and with callout in Topic 1 (unaffected)</fn></p>
     <p>Lorem ipsum<fn id="fn-2" callout="†">Footnote with ID and with callout in Topic 1 (unaffected)</fn></p>
     <p><xref href="#fn-2" type="fn">xref to fn-2</xref></p>
+    <p><xref href="#fn-2" type="fn"/></p>
 
     <fig id="fig-1">
       <title>Fig-1</title>
