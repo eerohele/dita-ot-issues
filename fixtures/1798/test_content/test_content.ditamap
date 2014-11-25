@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+  <!-- test_content.ditamap is the main ditamap for visible content -->
+  <topicref keyref="dir_01_ditamap" type="ditamap" format="ditamap"/>
+</map>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+  <!-- test_root.ditamap is the root map -->
+  <!-- include keydefs: -->
+  <topicref href="test_maps.ditamap" type="ditamap" format="ditamap" toc="no"/>
+  <!-- include visible content: -->
+  <topicref keyref="test_content_ditamap" type="ditamap" format="ditamap"/>
+</map>

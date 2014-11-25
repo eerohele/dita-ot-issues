@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+  <!-- test_maps.ditamap is the ditamap for keydefs of ditamaps -->
+  <keydef keys="test_content_ditamap" href="test_content/test_content.ditamap" type="ditamap" format="ditamap"/>
+  <keydef keys="dir_01_ditamap" href="test_content/dir_01/dir_01.ditamap" type="ditamap" format="ditamap"/>
+</map>

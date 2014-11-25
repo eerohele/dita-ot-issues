@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic xml:lang="de-de" id="x">
+  <title>Topic 01</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Topic 01</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <p>Topic 01</p>
+  </body>
+  <related-links>
+    <linklist>
+      <title>See also:</title>
+      <link keyref="topic_02"/>
+    </linklist>
+  </related-links>
+</topic>
