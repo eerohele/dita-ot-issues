@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+
+<map id="map" title="DITA Map">
+  <topichead navtitle="Target location">
+    <anchor id="common.doc.main"/>
+  </topichead>
+
+  <keydef keys="mainkey" href="#common.doc.main" format="ditamap" scope="local"/>
+
+  <anchorref keyref="mainkey">
+    <topicref navtitle="yadayada" href="topic1.dita"/>
+  </anchorref>
+</map>
