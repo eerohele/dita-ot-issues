@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="map_242C88E5039A4F6EB36CDA11323FEDF2" toc="no">
+  <title>Glossary</title>
+	<glossref print="yes" format="dita" type="glossentry" href="Test.dita" keys="test"/>
+</map>
