@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+
+<!-- file: test_inner/test_inner.ditamap -->
+
+<map>
+	<topicref keys="inner:Inner" href="Inner.dita" type="topic"/>
+</map>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+
+<!-- file: test_maps.ditamap (ditamap for keydefs of ditamaps) -->
+
+<map>
+	<keydef otherprops="dontshow" keys="outer_ditamap" href="test_outer/test_outer.ditamap" type="ditamap" format="ditamap"/>
+	<keydef keys="inner_ditamap" href="test_inner/test_inner.ditamap" type="ditamap" format="ditamap"/>
+</map>

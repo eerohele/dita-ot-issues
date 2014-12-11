@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+
+<!-- file: test_outer/test_outer.ditamap -->
+
+<map>
+	<topicref otherprops="dontshow" keys="outer:Outer" href="Outer.dita" type="topic" collection-type="sequence">
+		<topicref keyref="inner_ditamap" type="ditamap" format="ditamap"/>
+	</topicref>
+</map>

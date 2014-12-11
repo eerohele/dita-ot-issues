@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+
+<!-- file: test.ditamap (the root map) -->
+
+<map>
+	<!-- ditamap for other ditamaps: -->
+	<topicref href="test_maps.ditamap" type="ditamap" format="ditamap" toc="no" processing-role="resource-only"/>
+
+	<!-- normal topics: -->
+	<topicref otherprops="dontshow" keyref="outer_ditamap" type="ditamap" format="ditamap"/>
+</map>
