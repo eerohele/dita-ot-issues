@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA 1.2 Glossary Entry//EN" "glossentry.dtd">
+
+<glossentry id="abskey" xml:lang="en">
+  <glossterm>Anti-lock Braking System</glossterm>
+  <glossBody>
+    <glossSurfaceForm>Anti-lock Braking System (ABS)</glossSurfaceForm>
+    <glossAlt>
+      <glossAcronym>ABS</glossAcronym>
+    </glossAlt>
+  </glossBody>
+</glossentry>
