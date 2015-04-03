@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+
+<topic id="topic1" xml:lang="en-us">
+  <title>Topic 1</title>
+
+  <body>
+    <table id="tab_foo1">
+      <title>foo</title>
+      <tgroup cols="2">
+        <thead>
+          <row>
+            <entry>foo1</entry>
+            <entry>foo2</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>e1</entry>
+            <entry>e2</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <table id="tab_foo3">
+      <title>foo</title>
+      <tgroup cols="3">
+        <thead>
+          <row>
+            <entry>s1</entry>
+            <entry>s2</entry>
+            <entry>s3</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>e1</entry>
+            <entry>e2</entry>
+            <entry>e3</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic>
