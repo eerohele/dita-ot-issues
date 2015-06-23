@@ -1,0 +1,21 @@
+---
+- hosts: all
+  sudo: yes
+  tasks:
+    - name: Upgrade installed packages
+      apt: update_cache=yes
+           upgrade=full
+
+    - name: Install OpenJDK
+      apt: name=openjdk-8-jdk
+           state=latest
+
+    - name: Install Apache Ant
+      apt: name=ant
+           state=latest
+
+    - name: Set environment variables
+      lineinfile: dest=/etc/profile.d/dita-ot.sh
+                  line='export DITA_HOME=/opt/dita-ot/src/main'
+                  state=present
+                  create=True
