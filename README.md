@@ -7,8 +7,10 @@ A set of fixtures for testing DITA-OT issues.
 
 In most cases, provided that your `DITA_HOME` environment variable points to a working DITA-OT installation, to generate output for a given issue, you should be able to just do something like:
 
-    cd fixtures/1173
-    ant -find
+```
+cd fixtures/1173
+ant -find
+```
 
 The Ant buildfile in this repository should be able to build pretty much any DITA file regardless of the DITA-OT version you're using. You don't need to set the `CLASSPATH`, either — in fact, it's probably better if it's empty. If it doesn't work, though, please let me know.
 
@@ -16,7 +18,9 @@ A default set of properties passed to DITA-OT is defined in the `build.propertie
 
 To locate your DITA-OT installation, the buildfile uses your `DITA_HOME` environment variable. You can tell it to use another DITA-OT version by doing:
 
-    ant -Ddita.home=/path/to/dita-ot ...
+```
+ant -Ddita.home=/path/to/dita-ot ...
+```
 
 By default, the buildfile looks for a DITA map called `root.ditamap` in the directory where you run `ant`. If your DITA file has another name, you'll have to tell that to the buildfile.
 
@@ -24,11 +28,16 @@ There's two ways to do that. The buildfile reads the `build.properties` file in 
 
 That means that to specify the name of your DITA file, you can add a `build.properties` file like this into the directory of the issue you're working on:
 
-    args.input = ${user.dir}/indirect-keyref-test.ditamap
+```
+args.input = ${user.dir}/indirect-keyref-test.ditamap
+```
+
 
 Or you can specify a different transtype than the default one:
 
-    transtype = pdf2
+```
+transtype = pdf2
+```
 
 Or you can set any other DITA-OT property that you need to.
 
@@ -36,17 +45,24 @@ After that, a simple `ant -find` is enough to build the document.
 
 You can also pass any DITA-OT properties as command-line arguments as you normally would:
 
-    cd fixtures/1605
-    ant -Dargs.input=$PWD/indirect-keyref-test.ditamap -Dtranstype=pdf2 -find
-    # On Windows, use %CD% instead of $PWD
+```
+cd fixtures/1605
+ant -Dargs.input=$PWD/indirect-keyref-test.ditamap -Dtranstype=pdf2 -find
+# On Windows, use %CD% instead of $PWD
+```
 
 You can even specify which DITA-OT Ant targets to execute. For example, to only run the DITA-OT preprocessing stage, into `build.properties`, add:
 
-    ant.targets = build-init preprocess
+```
+ant.targets = build-init preprocess
+```
 
 Or, on the command line:
 
-    ant -Ddost.ant.targets="build-init preprocess" -find
+```
+ant -Ddost.ant.targets="build-init preprocess" -find
+```
+
 
 **NOTE**: The parameter is `ant.targets` in `build.properties` and `dost.ant.targets` on the command line because of Ant's property prefix magic.
 
@@ -67,5 +83,13 @@ After that, you can run DITA-OT in the Vagrant virtual machine:
 3. Run `vagrant ssh`.
 4. In the guest machine, run `cd /vagrant`.
 
-You can then build the fixtures as you normally would. No need to set `DITA_HOME`: provided that you have the `DITA_GIT` environment variable set, it will be
-set for you automatically in the virtual machine.
+You can then build the fixtures:
+
+```
+cd /vagrant/fixtures/1173
+ant -find
+```
+
+No need to set `DITA_HOME` with Vagrant: provided that you have the `DITA_GIT`
+environment variable set, it will be set for you automatically in the virtual
+machine.
