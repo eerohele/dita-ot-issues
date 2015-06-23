@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+
+<topic id="topic1" xml:lang="en-us">
+  <title>Topic 1</title>
+
+  <body>
+    <section id="A">
+      <title>A</title>
+      <simpletable keycol="1">
+        <sthead>
+          <stentry>A</stentry>
+          <stentry>A</stentry>
+          <stentry>A</stentry>
+          <stentry>A</stentry>
+        </sthead>
+        <strow audience="developer">
+          <stentry>
+            <indexterm>A</indexterm>
+            A
+          </stentry>
+          <stentry>A</stentry>
+          <stentry>
+            <lines>A</lines>
+          </stentry>
+          <stentry>
+            <lines>A</lines>
+          </stentry>
+        </strow>
+      </simpletable>
+    </section>
+
+    <section id="B">
+      <title>B</title>
+      <simpletable keycol="1">
+        <sthead>
+          <stentry>B</stentry>
+          <stentry>B</stentry>
+          <stentry>B</stentry>
+          <stentry>B</stentry>
+        </sthead>
+        <strow audience="admin">
+          <stentry>
+            <indexterm>B</indexterm>
+            B
+          </stentry>
+          <stentry>B</stentry>
+          <stentry>
+            <lines/>
+          </stentry>
+          <stentry>
+            <lines>B</lines>
+          </stentry>
+        </strow>
+      </simpletable>
+    </section>
+  </body>
+</topic>

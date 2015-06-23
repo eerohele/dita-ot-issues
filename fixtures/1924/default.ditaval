@@ -1,0 +1,5 @@
+<val>
+  <prop att="audience" val="developer" action="exclude"/>
+  <prop att="audience" val="service" action="flag" backcolor="orange"/>
+  <prop att="audience" val="admin" action="flag" backcolor="yellow"/>
+</val>
