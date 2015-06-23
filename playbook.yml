@@ -19,3 +19,6 @@
                   line='export DITA_HOME=/opt/dita-ot/src/main'
                   state=present
                   create=True
+      lineinfile: dest=/etc/profile.d/dita-ot.sh
+                  line='export PATH=$PATH:/opt/dita-ot/src/main/bin'
+                  state=present
