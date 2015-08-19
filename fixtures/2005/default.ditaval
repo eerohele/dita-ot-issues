@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE ditaval PUBLIC "-//OASIS//DTD DITA DITAVAL//EN" "ditaval.dtd">
+
+<val>
+   <prop action="include" att="audience" val="expert"/>
+</val>
