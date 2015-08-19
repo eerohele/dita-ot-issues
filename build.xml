@@ -2,7 +2,8 @@
 
 <project name="dita-ot-issues" default="build">
   <property environment="env"/>
-  <property name="dita.home" location="${env.DITA_HOME}"/>
+  <property name="dita-ot.git.repo" location="${env.DITA_GIT}"/>
+  <property name="dita.home" location="${dita-ot.git.repo}/src/main"/>
 
   <available file="${user.dir}/build.properties" property="user.properties"/>
 
