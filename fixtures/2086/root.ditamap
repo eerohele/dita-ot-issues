@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+
+<map id="map" title="DITA Map">
+  <topicref href="topic1.dita">
+    <topicmeta>
+      <keywords>
+        <indexterm>Topic 2: Topicref</indexterm>
+      </keywords>
+    </topicmeta>
+  </topicref>
+
+  <topicref href="topic2.dita">
+    <topicmeta>
+      <keywords>
+        <indexterm start="acct">Accounting</indexterm>
+        <indexterm end="acct"/>
+        <indexterm start="govt">Government forms</indexterm>
+      </keywords>
+    </topicmeta>
+    <topicref href="topic3.dita"/>
+  </topicref>
+</map>

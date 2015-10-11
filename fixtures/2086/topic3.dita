@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+
+<topic id="topic3" xml:lang="en-us">
+  <title>Topic 3</title>
+
+  <prolog>
+    <metadata>
+      <!-- No end range -->
+      <keywords><indexterm start="acct">Accounting</indexterm></keywords>
+    </metadata>
+  </prolog>
+
+  <body>
+    <section>
+      <title>Indexterm</title>
+
+      <p>
+        <indexterm>cheese
+          <indexterm>sheeps milk
+            <indexterm>pecorino</indexterm>
+          </indexterm>
+          <indexterm>goats milk
+            <indexterm>chevre</indexterm>
+          </indexterm>
+        </indexterm>
+
+        <!-- is equal to: -->
+
+        <indexterm>cheese
+          <indexterm>sheeps milk
+            <indexterm>pecorino</indexterm>
+          </indexterm>
+        </indexterm>
+        <indexterm>cheese
+          <indexterm>goats milk
+            <indexterm>chevre</indexterm>
+          </indexterm>
+        </indexterm>
+      </p>
+    </section>
+
+    <section>
+      <title>Index range</title>
+
+      <p>
+        <indexterm start="cheese">Cheese</indexterm>
+      </p>
+
+      <p>Additional content</p>
+
+      <p>
+        <indexterm end="cheese"/>
+      </p>
+
+      <p>
+        <indexterm>cheese
+          <indexterm>sheeps milk
+            <indexterm start="level-3-pecorino">pecorino</indexterm>
+          </indexterm>
+        </indexterm>
+      </p>
+
+      <p>More additional content</p>
+
+      <p>
+        <indexterm end="level-3-pecorino"/>
+      </p>
+    </section>
+
+    <section>
+      <title>Indexterm without end range</title>
+      <p>
+        <indexterm start="no-end"/>Failure to comply will get you audited.
+      </p>
+    </section>
+  </body>
+
+  <topic id="topic3-nested" xml:lang="en-us">
+    <title>Index-see, index-see-also, and index-sort-as</title>
+
+    <body>
+      <p>
+        <indexterm>Goldfish</indexterm>
+        <indexterm>Goldfish <indexterm>feeding</indexterm></indexterm>
+      </p>
+
+      <p><indexterm>Carassius auratus<index-see>Goldfish</index-see></indexterm></p>
+      <p>
+        <indexterm>Feeding goldfish
+          <index-see>Goldfish <indexterm>feeding</indexterm></index-see>
+        </indexterm>
+      </p>
+
+      <p>
+        <indexterm>Carp
+           <index-see-also>Goldfish</index-see-also>
+        </indexterm>
+      </p>
+
+      <p>
+        <indexterm>Feeding
+           <index-see-also>Goldfish <indexterm>feeding</indexterm></index-see-also>
+        </indexterm>
+      </p>
+
+      <p>
+        <indexterm>&lt;data&gt;<index-sort-as>data</index-sort-as></indexterm>
+      </p>
+    </body>
+  </topic>
+</topic>
