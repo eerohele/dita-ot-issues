@@ -6,7 +6,7 @@
   <topicref href="topic1.dita">
     <topicmeta>
       <keywords>
-        <indexterm>Topic 2: Topicref</indexterm>
+        <indexterm>Topic 1: Topicref</indexterm>
       </keywords>
     </topicmeta>
   </topicref>
