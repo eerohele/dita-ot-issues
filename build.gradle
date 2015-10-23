@@ -1,0 +1,29 @@
+buildscript {
+    repositories {
+        mavenLocal()
+    }
+
+    dependencies {
+        classpath 'com.github.eerohele:dita-ot-gradle:0.1.0'
+    }
+}
+
+apply plugin: 'com.github.eerohele.dita-ot-gradle'
+
+File userDir = file(System.properties['user.dir'])
+
+defaultTasks 'dita'
+
+ditaOt.dir file("${System.env.DITA_GIT}/src/main")
+
+dita {
+    input "${userDir}/root.ditamap"
+    output "${userDir}/out"
+
+    devMode true
+
+    properties {
+        property(file: "${userDir}/build.properties")
+        property(file: 'build.properties')
+    }
+}
