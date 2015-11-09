@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+
+<map id="keydef">
+  <title>Keydef</title>
+
+  <keydef href="topic2.dita" keys="topic2"/>
+  <keydef href="topic3.dita" keys="topic3"/>
+
+  <keydef keys="keyword">
+    <topicmeta>
+      <keywords>
+        <keyword>foobar</keyword>
+      </keywords>
+    </topicmeta>
+  </keydef>
+</map>

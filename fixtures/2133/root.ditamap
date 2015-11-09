@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+
+<map id="root">
+  <title>DITA Map</title>
+
+  <keydef keys="variables" format="ditamap" href="keydef.ditamap"/>
+
+  <topicref href="topic1.dita"/>
+  <topicref href="topic2.dita"/>
+  <topicref href="topic3.dita"/>
+</map>
