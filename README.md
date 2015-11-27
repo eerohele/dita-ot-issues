@@ -93,8 +93,8 @@ To use the Vagrantfile in this repo, you must:
 After that, you can run DITA-OT in the Vagrant virtual machine:
 
 1. `cd` to where you have this repo cloned
-2. Run `vagrant up`.
-3. Run `vagrant ssh`.
+2. Run `vagrant up linux` or `vagrant up windows`.
+3. Run `vagrant ssh linux` or `vagrant up windows`.
 4. In the guest machine, run `cd /vagrant`.
 
 You can then build the fixtures:

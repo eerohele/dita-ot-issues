@@ -1,5 +1,7 @@
 ---
-- hosts: all
+- hosts: ubuntu
+  vars:
+      init_dita_ot: /etc/profile.d/dita-ot.sh
   sudo: yes
   tasks:
     - name: Upgrade installed packages
@@ -14,11 +16,13 @@
       apt: name=ant
            state=latest
 
+    - name: Create environment variable file
+      file: path={{ init_dita_ot }} state=touch
+
     - name: Set environment variables
-      lineinfile: dest=/etc/profile.d/dita-ot.sh
+      lineinfile: dest={{ init_dita_ot }}
                   line='export DITA_HOME=/opt/dita-ot/src/main'
                   state=present
-                  create=True
-      lineinfile: dest=/etc/profile.d/dita-ot.sh
+      lineinfile: dest={{ init_dita_ot }}
                   line='export PATH=$PATH:/opt/dita-ot/src/main/bin'
                   state=present
