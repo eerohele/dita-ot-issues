@@ -20,5 +20,6 @@
       </keywords>
     </topicmeta>
     <topicref href="topic3.dita"/>
+    <topicref href="topic4.dita"/>
   </topicref>
 </map>

@@ -14,6 +14,6 @@
   </prolog>
 
   <body>
-    <p>Hello, world 1!</p>
+    <p>Hello, <indexterm start="end-other-page">world</indexterm> 1!</p>
   </body>
 </topic>
