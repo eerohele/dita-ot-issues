@@ -1,15 +1,15 @@
 ---
-- hosts: ubuntu
+- hosts: all
   vars:
       init_dita_ot: /etc/profile.d/dita-ot.sh
-  sudo: yes
+  become: yes
   tasks:
     - name: Upgrade installed packages
       apt: update_cache=yes
            upgrade=full
 
     - name: Install OpenJDK
-      apt: name=openjdk-8-jdk
+      apt: name=openjdk-7-jdk
            state=latest
 
     - name: Install Apache Ant
@@ -19,10 +19,12 @@
     - name: Create environment variable file
       file: path={{ init_dita_ot }} state=touch
 
-    - name: Set environment variables
+    - name: Set DITA_HOME
       lineinfile: dest={{ init_dita_ot }}
                   line='export DITA_HOME=/opt/dita-ot/src/main'
                   state=present
+
+    - name: Set PATH
       lineinfile: dest={{ init_dita_ot }}
                   line='export PATH=$PATH:/opt/dita-ot/src/main/bin'
                   state=present

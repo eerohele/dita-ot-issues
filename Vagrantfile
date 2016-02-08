@@ -12,7 +12,7 @@ end
 
 Vagrant.configure(2) do |config|
   config.vm.define "linux" do |linux|
-    linux.vm.box = "ubuntu/vivid64"
+    linux.vm.box = "minimal/trusty64"
 
     linux.vm.synced_folder ENV["DITA_GIT"], "/opt/dita-ot",
       owner: "vagrant", group: "vagrant"
