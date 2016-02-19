@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+
+<topic id="topic1" xml:lang="en-us">
+  <title>Topic 1</title>
+
+  <body>
+    <p>Hello, world 1!</p>
+  </body>
+
+  <related-links>
+    <link href="topic2.dita">
+      <linktext>foo</linktext>
+      <desc>bar</desc>
+    </link>
+
+    <link format="html" href="http://www.google.com" scope="external">
+      <linktext>baz</linktext>
+      <desc>quux</desc>
+    </link>
+
+    <link format="html" href="http://www.google.com" scope="external">
+      <linktext>baz</linktext>
+      <desc>quux</desc>
+    </link>
+  </related-links>
+</topic>
