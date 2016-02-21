@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+
+<topic id="topic1" xml:lang="en-us">
+  <title>Tables</title>
+
+  <topic id="frame">
+    <title><xmlatt>frame</xmlatt></title>
+
+    <body>
+      <section>
+        <table frame="top">
+          <title>top</title>
+          <tgroup cols="5">
+            <tbody>
+              <row>
+                <entry>Aster</entry>
+                <entry>2:3</entry>
+                <entry>24 x 36</entry>
+                <entry>0.6667</entry>
+                <entry>a = 2b</entry>
+              </row>
+              <row>
+                <entry>Valerian</entry>
+                <entry>271:20</entry>
+                <entry>813 x 604</entry>
+                <entry>13.550</entry>
+                <entry>6a = c</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </section>
+
+      <section>
+        <table frame="bottom">
+          <title>bottom</title>
+          <tgroup cols="5">
+            <tbody>
+              <row>
+                <entry>Aster</entry>
+                <entry>2:3</entry>
+                <entry>24 x 36</entry>
+                <entry>0.6667</entry>
+                <entry>a = 2b</entry>
+              </row>
+              <row>
+                <entry>Valerian</entry>
+                <entry>271:20</entry>
+                <entry>813 x 604</entry>
+                <entry>13.550</entry>
+                <entry>6a = c</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </section>
+
+      <section>
+        <table frame="topbot">
+          <title>topbot</title>
+          <tgroup cols="5">
+            <tbody>
+              <row>
+                <entry>Aster</entry>
+                <entry>2:3</entry>
+                <entry>24 x 36</entry>
+                <entry>0.6667</entry>
+                <entry>a = 2b</entry>
+              </row>
+              <row>
+                <entry>Valerian</entry>
+                <entry>271:20</entry>
+                <entry>813 x 604</entry>
+                <entry>13.550</entry>
+                <entry>6a = c</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </section>
+
+      <section>
+        <table frame="all">
+          <title>all</title>
+          <tgroup cols="5">
+            <tbody>
+              <row>
+                <entry>Aster</entry>
+                <entry>2:3</entry>
+                <entry>24 x 36</entry>
+                <entry>0.6667</entry>
+                <entry>a = 2b</entry>
+              </row>
+              <row>
+                <entry>Valerian</entry>
+                <entry>271:20</entry>
+                <entry>813 x 604</entry>
+                <entry>13.550</entry>
+                <entry>6a = c</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </section>
+
+      <section>
+        <table frame="sides">
+          <title>sides</title>
+          <tgroup cols="5">
+            <tbody>
+              <row>
+                <entry>Aster</entry>
+                <entry>2:3</entry>
+                <entry>24 x 36</entry>
+                <entry>0.6667</entry>
+                <entry>a = 2b</entry>
+              </row>
+              <row>
+                <entry>Valerian</entry>
+                <entry>271:20</entry>
+                <entry>813 x 604</entry>
+                <entry>13.550</entry>
+                <entry>6a = c</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </section>
+
+      <section>
+        <table frame="none">
+          <title>none</title>
+          <tgroup cols="5">
+            <tbody>
+              <row>
+                <entry>Aster</entry>
+                <entry>2:3</entry>
+                <entry>24 x 36</entry>
+                <entry>0.6667</entry>
+                <entry>a = 2b</entry>
+              </row>
+              <row>
+                <entry>Valerian</entry>
+                <entry>271:20</entry>
+                <entry>813 x 604</entry>
+                <entry>13.550</entry>
+                <entry>6a = c</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </section>
+    </body>
+  </topic>
+
+  <topic id="pgwide">
+    <title><xmlatt>pgwide</xmlatt></title>
+
+    <body>
+      <table pgwide="1">
+        <title><xmlatt>pgwide</xmlatt></title>
+        <tgroup cols="5">
+          <tbody>
+            <row>
+              <entry>Aster</entry>
+              <entry>2:3</entry>
+              <entry>24 x 36</entry>
+              <entry>0.6667</entry>
+              <entry>a = 2b</entry>
+            </row>
+            <row>
+              <entry>Valerian</entry>
+              <entry>271:20</entry>
+              <entry>813 x 604</entry>
+              <entry>13.550</entry>
+              <entry>6a = c</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <ul>
+        <li>
+          <table pgwide="1">
+            <title><xmlatt>pgwide</xmlatt> in <xmlelement>ul</xmlelement></title>
+            <tgroup cols="5">
+              <tbody>
+                <row>
+                  <entry>Aster</entry>
+                  <entry>2:3</entry>
+                  <entry>24 x 36</entry>
+                  <entry>0.6667</entry>
+                  <entry>a = 2b</entry>
+                </row>
+                <row>
+                  <entry>Valerian</entry>
+                  <entry>271:20</entry>
+                  <entry>813 x 604</entry>
+                  <entry>13.550</entry>
+                  <entry>6a = c</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </li>
+      </ul>
+    </body>
+  </topic>
+
+  <topic id="scale">
+    <title><xmlatt>scale</xmlatt></title>
+
+    <body>
+      <table scale="70">
+        <tgroup cols="5">
+          <tbody>
+            <row>
+              <entry>Aster</entry>
+              <entry>2:3</entry>
+              <entry>24 x 36</entry>
+              <entry>0.6667</entry>
+              <entry>a = 2b</entry>
+            </row>
+            <row>
+              <entry>Valerian</entry>
+              <entry>271:20</entry>
+              <entry>813 x 604</entry>
+              <entry>13.550</entry>
+              <entry>6a = c</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+
+  <topic id="rowheader">
+    <title><xmlatt>rowheader</xmlatt></title>
+
+    <body>
+      <table rowheader="firstcol">
+        <tgroup cols="5">
+          <tbody>
+            <row>
+              <entry>Aster</entry>
+              <entry>2:3</entry>
+              <entry>24 x 36</entry>
+              <entry>0.6667</entry>
+              <entry>a = 2b</entry>
+            </row>
+            <row>
+              <entry>Valerian</entry>
+              <entry>271:20</entry>
+              <entry>813 x 604</entry>
+              <entry>13.550</entry>
+              <entry>6a = c</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+
+  <topic id="rowsep">
+    <title><xmlatt>rowsep</xmlatt></title>
+
+    <body>
+      <table rowsep="1">
+        <title><xmlelement>table</xmlelement> <xmlatt>rowsep</xmlatt></title>
+        <tgroup cols="5">
+          <tbody>
+            <row>
+              <entry>Aster</entry>
+              <entry>2:3</entry>
+              <entry>24 x 36</entry>
+              <entry>0.6667</entry>
+              <entry>a = 2b</entry>
+            </row>
+            <row>
+              <entry>Valerian</entry>
+              <entry>271:20</entry>
+              <entry>813 x 604</entry>
+              <entry>13.550</entry>
+              <entry>6a = c</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <table>
+        <title><xmlelement>tgroup</xmlelement> <xmlatt>rowsep</xmlatt></title>
+        <tgroup cols="5" rowsep="1">
+          <tbody>
+            <row>
+              <entry>Aster</entry>
+              <entry>2:3</entry>
+              <entry>24 x 36</entry>
+              <entry>0.6667</entry>
+              <entry>a = 2b</entry>
+            </row>
+            <row>
+              <entry>Valerian</entry>
+              <entry>271:20</entry>
+              <entry>813 x 604</entry>
+              <entry>13.550</entry>
+              <entry>6a = c</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <table>
+        <title><xmlelement>row</xmlelement> <xmlatt>rowsep</xmlatt></title>
+        <tgroup cols="5">
+          <tbody>
+            <row rowsep="1">
+              <entry>Aster</entry>
+              <entry>2:3</entry>
+              <entry>24 x 36</entry>
+              <entry>0.6667</entry>
+              <entry>a = 2b</entry>
+            </row>
+            <row>
+              <entry>Valerian</entry>
+              <entry>271:20</entry>
+              <entry>813 x 604</entry>
+              <entry>13.550</entry>
+              <entry>6a = c</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <table>
+        <title><xmlelement>entry</xmlelement> <xmlatt>rowsep</xmlatt></title>
+        <tgroup cols="5">
+          <tbody>
+            <row>
+              <entry rowsep="1">Aster</entry>
+              <entry>2:3</entry>
+              <entry>24 x 36</entry>
+              <entry>0.6667</entry>
+              <entry>a = 2b</entry>
+            </row>
+            <row>
+              <entry>Valerian</entry>
+              <entry>271:20</entry>
+              <entry>813 x 604</entry>
+              <entry>13.550</entry>
+              <entry>6a = c</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+
+  <topic id="colsep">
+    <title><xmlatt>colsep</xmlatt></title>
+
+    <body>
+      <table colsep="1">
+        <title><xmlelement>table</xmlelement> <xmlatt>colsep</xmlatt></title>
+        <tgroup cols="5">
+          <tbody>
+            <row>
+              <entry>Aster</entry>
+              <entry>2:3</entry>
+              <entry>24 x 36</entry>
+              <entry>0.6667</entry>
+              <entry>a = 2b</entry>
+            </row>
+            <row>
+              <entry>Valerian</entry>
+              <entry>271:20</entry>
+              <entry>813 x 604</entry>
+              <entry>13.550</entry>
+              <entry>6a = c</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <table>
+        <title><xmlelement>tgroup</xmlelement> <xmlatt>colsep</xmlatt></title>
+        <tgroup cols="5" colsep="1">
+          <tbody>
+            <row>
+              <entry>Aster</entry>
+              <entry>2:3</entry>
+              <entry>24 x 36</entry>
+              <entry>0.6667</entry>
+              <entry>a = 2b</entry>
+            </row>
+            <row>
+              <entry>Valerian</entry>
+              <entry>271:20</entry>
+              <entry>813 x 604</entry>
+              <entry>13.550</entry>
+              <entry>6a = c</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <table>
+        <title><xmlelement>entry</xmlelement> <xmlatt>colsep</xmlatt></title>
+        <tgroup cols="5">
+          <tbody>
+            <row>
+              <entry colsep="1">Aster</entry>
+              <entry>2:3</entry>
+              <entry>24 x 36</entry>
+              <entry>0.6667</entry>
+              <entry>a = 2b</entry>
+            </row>
+            <row>
+              <entry>Valerian</entry>
+              <entry>271:20</entry>
+              <entry>813 x 604</entry>
+              <entry>13.550</entry>
+              <entry>6a = c</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+
+  <topic id="valign">
+    <title><xmlatt>valign</xmlatt></title>
+
+    <body>
+      <table>
+        <title><xmlelement>thead</xmlelement> <xmlatt>valign</xmlatt></title>
+        <tgroup cols="5">
+          <thead valign="bottom">
+            <row>
+              <entry>a</entry>
+              <entry>b</entry>
+              <entry>c</entry>
+              <entry>d</entry>
+              <entry>e</entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry>Aster</entry>
+              <entry>2:3</entry>
+              <entry>24 x 36</entry>
+              <entry>0.6667</entry>
+              <entry>a = 2b</entry>
+            </row>
+            <row>
+              <entry>Valerian</entry>
+              <entry>271:20</entry>
+              <entry>813 x 604</entry>
+              <entry>13.550</entry>
+              <entry>6a = c</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <table>
+        <title><xmlelement>tbody</xmlelement> <xmlatt>valign</xmlatt></title>
+        <tgroup cols="5">
+          <tbody valign="bottom">
+            <row>
+              <entry>Aster</entry>
+              <entry>2:3</entry>
+              <entry>24 x 36</entry>
+              <entry>0.6667</entry>
+              <entry>a = 2b</entry>
+            </row>
+            <row>
+              <entry>Valerian</entry>
+              <entry>271:20</entry>
+              <entry>813 x 604</entry>
+              <entry>13.550</entry>
+              <entry>6a = c</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <table>
+        <title><xmlelement>row</xmlelement> <xmlatt>valign</xmlatt></title>
+        <tgroup cols="5">
+          <tbody>
+            <row valign="bottom">
+              <entry>Aster</entry>
+              <entry>2:3</entry>
+              <entry>24 x 36</entry>
+              <entry>0.6667</entry>
+              <entry>a = 2b</entry>
+            </row>
+            <row>
+              <entry>Valerian</entry>
+              <entry>271:20</entry>
+              <entry>813 x 604</entry>
+              <entry>13.550</entry>
+              <entry>6a = c</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <table>
+        <title><xmlelement>entry</xmlelement> <xmlatt>valign</xmlatt></title>
+        <tgroup cols="5">
+          <tbody>
+            <row>
+              <entry valign="bottom">Aster</entry>
+              <entry>2:3</entry>
+              <entry>24 x 36</entry>
+              <entry>0.6667</entry>
+              <entry>a = 2b</entry>
+            </row>
+            <row>
+              <entry>Valerian</entry>
+              <entry>271:20</entry>
+              <entry>813 x 604</entry>
+              <entry>13.550</entry>
+              <entry>6a = c</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+
+  <topic id="align">
+    <title><xmlatt>align</xmlatt></title>
+
+    <body>
+      <table>
+        <title><xmlelement>tgroup</xmlelement> <xmlatt>align</xmlatt></title>
+        <tgroup cols="5" align="center">
+          <tbody>
+            <row>
+              <entry>Aster</entry>
+              <entry>2:3</entry>
+              <entry>24 x 36</entry>
+              <entry>0.6667</entry>
+              <entry>a = 2b</entry>
+            </row>
+            <row>
+              <entry>Valerian</entry>
+              <entry>271:20</entry>
+              <entry>813 x 604</entry>
+              <entry>13.550</entry>
+              <entry>6a = c</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <table>
+        <title><xmlelement>colspec</xmlelement> <xmlatt>align</xmlatt></title>
+        <tgroup cols="5">
+          <colspec align="center"/>
+          <tbody>
+            <row>
+              <entry>Aster</entry>
+              <entry>2:3</entry>
+              <entry>24 x 36</entry>
+              <entry>0.6667</entry>
+              <entry>a = 2b</entry>
+            </row>
+            <row>
+              <entry>Valerian</entry>
+              <entry>271:20</entry>
+              <entry>813 x 604</entry>
+              <entry>13.550</entry>
+              <entry>6a = c</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <table>
+        <title><xmlelement>entry</xmlelement> <xmlatt>align</xmlatt></title>
+        <tgroup cols="5">
+          <tbody>
+            <row>
+              <entry align="center">Aster</entry>
+              <entry>2:3</entry>
+              <entry>24 x 36</entry>
+              <entry>0.6667</entry>
+              <entry>a = 2b</entry>
+            </row>
+            <row>
+              <entry>Valerian</entry>
+              <entry>271:20</entry>
+              <entry>813 x 604</entry>
+              <entry>13.550</entry>
+              <entry>6a = c</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+
+  <topic id="desc">
+    <title>desc</title>
+
+    <body>
+      <table>
+        <title>title</title>
+        <desc>desc</desc>
+        <tgroup cols="5">
+          <tbody>
+            <row>
+              <entry>Aster</entry>
+              <entry>2:3</entry>
+              <entry>24 x 36</entry>
+              <entry>0.6667</entry>
+              <entry>a = 2b</entry>
+            </row>
+            <row>
+              <entry>Valerian</entry>
+              <entry>271:20</entry>
+              <entry>813 x 604</entry>
+              <entry>13.550</entry>
+              <entry>6a = c</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+
+  <topic id="hu-hu" xml:lang="hu-hu">
+    <title>hu-hu</title>
+
+    <body>
+      <table>
+        <title>hu-hu</title>
+        <tgroup cols="5">
+          <tbody>
+            <row>
+              <entry>Aster</entry>
+              <entry>2:3</entry>
+              <entry>24 x 36</entry>
+              <entry>0.6667</entry>
+              <entry>a = 2b</entry>
+            </row>
+            <row>
+              <entry>Valerian</entry>
+              <entry>271:20</entry>
+              <entry>813 x 604</entry>
+              <entry>13.550</entry>
+              <entry>6a = c</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
+</topic>
