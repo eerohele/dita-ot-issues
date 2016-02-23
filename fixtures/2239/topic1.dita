@@ -662,4 +662,32 @@
       </table>
     </body>
   </topic>
+
+  <topic id="multiple">
+    <title>multiple</title>
+
+    <body>
+      <table outputclass="foo" frame="topbot" scale="80" pgwide="1">
+        <title>multiple</title>
+        <tgroup cols="5">
+          <tbody outputclass="bar" valign="top">
+            <row outputclass="baz" valign="middle">
+              <entry outputclass="quux" rowsep="1" colsep="0" valign="bottom" align="center">Aster</entry>
+              <entry>2:3</entry>
+              <entry>24 x 36</entry>
+              <entry>0.6667</entry>
+              <entry>a = 2b</entry>
+            </row>
+            <row>
+              <entry>Valerian</entry>
+              <entry>271:20</entry>
+              <entry>813 x 604</entry>
+              <entry>13.550</entry>
+              <entry>6a = c</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </body>
+  </topic>
 </topic>
