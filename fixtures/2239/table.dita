@@ -2,8 +2,8 @@
 
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 
-<topic id="topic1" xml:lang="en-us">
-  <title>Tables</title>
+<topic id="table" xml:lang="en-us">
+  <title>table</title>
 
   <topic id="frame">
     <title><xmlatt>frame</xmlatt></title>
@@ -354,6 +354,28 @@
           </tbody>
         </tgroup>
       </table>
+
+      <table frame="all">
+        <title><xmlelement>entry</xmlelement> <xmlatt>rowsep</xmlatt> &amp; <xmlatt>frame</xmlatt></title>
+        <tgroup cols="5">
+          <tbody>
+            <row>
+              <entry>Aster</entry>
+              <entry>2:3</entry>
+              <entry>24 x 36</entry>
+              <entry>0.6667</entry>
+              <entry rowsep="1">a = 2b</entry>
+            </row>
+            <row>
+              <entry>Valerian</entry>
+              <entry>271:20</entry>
+              <entry>813 x 604</entry>
+              <entry>13.550</entry>
+              <entry rowsep="1">6a = c</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
     </body>
   </topic>
 
@@ -422,6 +444,28 @@
               <entry>813 x 604</entry>
               <entry>13.550</entry>
               <entry>6a = c</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <table frame="all">
+        <title><xmlelement>entry</xmlelement> <xmlatt>colsep</xmlatt> &amp; <xmlatt>frame</xmlatt></title>
+        <tgroup cols="5">
+          <tbody>
+            <row>
+              <entry>Aster</entry>
+              <entry>2:3</entry>
+              <entry>24 x 36</entry>
+              <entry>0.6667</entry>
+              <entry>a = 2b</entry>
+            </row>
+            <row>
+              <entry colsep="1">Valerian</entry>
+              <entry>271:20</entry>
+              <entry>813 x 604</entry>
+              <entry>13.550</entry>
+              <entry colsep="1">6a = c</entry>
             </row>
           </tbody>
         </tgroup>
@@ -679,7 +723,7 @@
               <entry>a = 2b</entry>
             </row>
             <row>
-              <entry>Valerian</entry>
+              <entry colsep="1" rowsep="1">Valerian</entry>
               <entry>271:20</entry>
               <entry>813 x 604</entry>
               <entry>13.550</entry>

@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+
+<topic id="simpletable" xml:lang="en-us">
+  <title>simpletable</title>
+
+  <body>
+    <section>
+      <title>
+        <xmlelement>simpletable</xmlelement>
+      </title>
+
+      <simpletable>
+        <sthead>
+          <stentry>Type style</stentry>
+          <stentry>Elements used</stentry>
+        </sthead>
+        <strow>
+          <stentry>Bold</stentry>
+          <stentry>b</stentry>
+        </strow>
+        <strow>
+          <stentry>Italic</stentry>
+          <stentry>i</stentry>
+        </strow>
+        <strow>
+          <stentry>Underlined</stentry>
+          <stentry>u</stentry>
+        </strow>
+      </simpletable>
+    </section>
+
+    <section>
+      <title>
+        <xmlelement>simpletable</xmlelement> with no <xmlelement>sthead</xmlelement>
+      </title>
+
+      <simpletable>
+        <strow>
+          <stentry>Bold</stentry>
+          <stentry>b</stentry>
+        </strow>
+        <strow>
+          <stentry>Italic</stentry>
+          <stentry>i</stentry>
+        </strow>
+        <strow>
+          <stentry>Underlined</stentry>
+          <stentry>u</stentry>
+        </strow>
+      </simpletable>
+    </section>
+
+    <section>
+      <title>
+        <xmlatt>relcolwidth</xmlatt>
+      </title>
+
+      <simpletable relcolwidth="50* 25*">
+        <sthead>
+          <stentry>Type style</stentry>
+          <stentry>Elements used</stentry>
+        </sthead>
+        <strow>
+          <stentry>Bold</stentry>
+          <stentry>b</stentry>
+        </strow>
+        <strow>
+          <stentry>Italic</stentry>
+          <stentry>i</stentry>
+        </strow>
+        <strow>
+          <stentry>Underlined</stentry>
+          <stentry>u</stentry>
+        </strow>
+      </simpletable>
+    </section>
+
+    <section>
+      <title>
+        <xmlatt>keycol</xmlatt>
+      </title>
+
+      <simpletable keycol="1">
+        <sthead>
+          <stentry>Type style</stentry>
+          <stentry>Elements used</stentry>
+        </sthead>
+        <strow>
+          <stentry>Bold</stentry>
+          <stentry>b</stentry>
+        </strow>
+        <strow>
+          <stentry>Italic</stentry>
+          <stentry>i</stentry>
+        </strow>
+        <strow>
+          <stentry>Underlined</stentry>
+          <stentry>u</stentry>
+        </strow>
+      </simpletable>
+    </section>
+
+    <section>
+      <title>
+        <xmlatt>expanse</xmlatt> page
+      </title>
+
+      <simpletable expanse="page">
+        <sthead>
+          <stentry>Type style</stentry>
+          <stentry>Elements used</stentry>
+        </sthead>
+        <strow>
+          <stentry>Bold</stentry>
+          <stentry>b</stentry>
+        </strow>
+        <strow>
+          <stentry>Italic</stentry>
+          <stentry>i</stentry>
+        </strow>
+        <strow>
+          <stentry>Underlined</stentry>
+          <stentry>u</stentry>
+        </strow>
+      </simpletable>
+    </section>
+
+    <section>
+      <title>
+        <xmlatt>expanse</xmlatt> column
+      </title>
+
+      <simpletable expanse="column">
+        <sthead>
+          <stentry>Type style</stentry>
+          <stentry>Elements used</stentry>
+        </sthead>
+        <strow>
+          <stentry>Bold</stentry>
+          <stentry>b</stentry>
+        </strow>
+        <strow>
+          <stentry>Italic</stentry>
+          <stentry>i</stentry>
+        </strow>
+        <strow>
+          <stentry>Underlined</stentry>
+          <stentry>u</stentry>
+        </strow>
+      </simpletable>
+    </section>
+
+    <section>
+      <title>
+        <xmlatt>expanse</xmlatt> textline
+      </title>
+
+      <simpletable expanse="textline">
+        <sthead>
+          <stentry>Type style</stentry>
+          <stentry>Elements used</stentry>
+        </sthead>
+        <strow>
+          <stentry>Bold</stentry>
+          <stentry>b</stentry>
+        </strow>
+        <strow>
+          <stentry>Italic</stentry>
+          <stentry>i</stentry>
+        </strow>
+        <strow>
+          <stentry>Underlined</stentry>
+          <stentry>u</stentry>
+        </strow>
+      </simpletable>
+    </section>
+
+    <section>
+      <title>
+        <xmlatt>expanse</xmlatt> spread
+      </title>
+
+      <simpletable expanse="spread">
+        <sthead>
+          <stentry>Type style</stentry>
+          <stentry>Elements used</stentry>
+        </sthead>
+        <strow>
+          <stentry>Bold</stentry>
+          <stentry>b</stentry>
+        </strow>
+        <strow>
+          <stentry>Italic</stentry>
+          <stentry>i</stentry>
+        </strow>
+        <strow>
+          <stentry>Underlined</stentry>
+          <stentry>u</stentry>
+        </strow>
+      </simpletable>
+    </section>
+
+    <section>
+      <title>
+        <xmlatt>frame</xmlatt> top
+      </title>
+
+      <simpletable frame="top">
+        <sthead>
+          <stentry>Type style</stentry>
+          <stentry>Elements used</stentry>
+        </sthead>
+        <strow>
+          <stentry>Bold</stentry>
+          <stentry>b</stentry>
+        </strow>
+        <strow>
+          <stentry>Italic</stentry>
+          <stentry>i</stentry>
+        </strow>
+        <strow>
+          <stentry>Underlined</stentry>
+          <stentry>u</stentry>
+        </strow>
+      </simpletable>
+    </section>
+
+    <section>
+      <title>
+        <xmlatt>frame</xmlatt> bottom
+      </title>
+
+      <simpletable frame="bottom">
+        <sthead>
+          <stentry>Type style</stentry>
+          <stentry>Elements used</stentry>
+        </sthead>
+        <strow>
+          <stentry>Bold</stentry>
+          <stentry>b</stentry>
+        </strow>
+        <strow>
+          <stentry>Italic</stentry>
+          <stentry>i</stentry>
+        </strow>
+        <strow>
+          <stentry>Underlined</stentry>
+          <stentry>u</stentry>
+        </strow>
+      </simpletable>
+    </section>
+
+    <section>
+      <title>
+        <xmlatt>frame</xmlatt> topbot
+      </title>
+
+      <simpletable frame="topbot">
+        <sthead>
+          <stentry>Type style</stentry>
+          <stentry>Elements used</stentry>
+        </sthead>
+        <strow>
+          <stentry>Bold</stentry>
+          <stentry>b</stentry>
+        </strow>
+        <strow>
+          <stentry>Italic</stentry>
+          <stentry>i</stentry>
+        </strow>
+        <strow>
+          <stentry>Underlined</stentry>
+          <stentry>u</stentry>
+        </strow>
+      </simpletable>
+    </section>
+
+    <section>
+      <title>
+        <xmlatt>frame</xmlatt> all
+      </title>
+
+      <simpletable frame="all">
+        <sthead>
+          <stentry>Type style</stentry>
+          <stentry>Elements used</stentry>
+        </sthead>
+        <strow>
+          <stentry>Bold</stentry>
+          <stentry>b</stentry>
+        </strow>
+        <strow>
+          <stentry>Italic</stentry>
+          <stentry>i</stentry>
+        </strow>
+        <strow>
+          <stentry>Underlined</stentry>
+          <stentry>u</stentry>
+        </strow>
+      </simpletable>
+    </section>
+
+    <section>
+      <title>
+        <xmlatt>frame</xmlatt> sides
+      </title>
+
+      <simpletable frame="sides">
+        <sthead>
+          <stentry>Type style</stentry>
+          <stentry>Elements used</stentry>
+        </sthead>
+        <strow>
+          <stentry>Bold</stentry>
+          <stentry>b</stentry>
+        </strow>
+        <strow>
+          <stentry>Italic</stentry>
+          <stentry>i</stentry>
+        </strow>
+        <strow>
+          <stentry>Underlined</stentry>
+          <stentry>u</stentry>
+        </strow>
+      </simpletable>
+    </section>
+
+    <section>
+      <title>
+        <xmlatt>frame</xmlatt> none
+      </title>
+
+      <simpletable frame="none">
+        <sthead>
+          <stentry>Type style</stentry>
+          <stentry>Elements used</stentry>
+        </sthead>
+        <strow>
+          <stentry>Bold</stentry>
+          <stentry>b</stentry>
+        </strow>
+        <strow>
+          <stentry>Italic</stentry>
+          <stentry>i</stentry>
+        </strow>
+        <strow>
+          <stentry>Underlined</stentry>
+          <stentry>u</stentry>
+        </strow>
+      </simpletable>
+    </section>
+
+    <section>
+      <title>
+        <xmlatt>scale</xmlatt>
+      </title>
+
+      <simpletable scale="70">
+        <sthead>
+          <stentry>Type style</stentry>
+          <stentry>Elements used</stentry>
+        </sthead>
+        <strow>
+          <stentry>Bold</stentry>
+          <stentry>b</stentry>
+        </strow>
+        <strow>
+          <stentry>Italic</stentry>
+          <stentry>i</stentry>
+        </strow>
+        <strow>
+          <stentry>Underlined</stentry>
+          <stentry>u</stentry>
+        </strow>
+      </simpletable>
+    </section>
+  </body>
+</topic>

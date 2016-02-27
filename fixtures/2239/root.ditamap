@@ -3,5 +3,6 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 
 <map id="map" title="DITA Map">
-  <topicref href="topic1.dita"/>
+  <topicref href="table.dita"/>
+  <topicref href="simpletable.dita"/>
 </map>
