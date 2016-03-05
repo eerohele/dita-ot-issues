@@ -5,4 +5,5 @@
 <map id="map" title="DITA Map">
   <topicref href="table.dita"/>
   <topicref href="simpletable.dita"/>
+  <topicref href="choicetable.dita"/>
 </map>

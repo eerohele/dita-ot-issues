@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+
+<task id="choicetable">
+  <title><xmlelement>choicetable</xmlelement></title>
+
+  <taskbody>
+    <steps>
+      <step>
+        <cmd><xmlelement>choicetable</xmlelement></cmd>
+        <choicetable>
+          <chhead>
+            <choptionhd>Do something</choptionhd>
+            <chdeschd>Or Else this</chdeschd>
+          </chhead>
+          <chrow>
+            <choption>Do this</choption>
+            <chdesc>and this will happen</chdesc>
+          </chrow>
+          <chrow>
+            <choption>Do that</choption>
+            <chdesc>and that will happen</chdesc>
+          </chrow>
+        </choicetable>
+      </step>
+      <step>
+        <cmd><xmlelement>choicetable</xmlelement> <xmlatt>frame</xmlatt></cmd>
+        <choicetable frame="sides">
+          <chhead>
+            <choptionhd>Do something</choptionhd>
+            <chdeschd>Or Else this</chdeschd>
+          </chhead>
+          <chrow>
+            <choption>Do this</choption>
+            <chdesc>and this will happen</chdesc>
+          </chrow>
+          <chrow>
+            <choption>Do that</choption>
+            <chdesc>and that will happen</chdesc>
+          </chrow>
+        </choicetable>
+      </step>
+      <step>
+        <cmd><xmlelement>choicetable</xmlelement> <xmlatt>scale</xmlatt></cmd>
+        <choicetable scale="50">
+          <chhead>
+            <choptionhd>Do something</choptionhd>
+            <chdeschd>Or Else this</chdeschd>
+          </chhead>
+          <chrow>
+            <choption>Do this</choption>
+            <chdesc>and this will happen</chdesc>
+          </chrow>
+          <chrow>
+            <choption>Do that</choption>
+            <chdesc>and that will happen</chdesc>
+          </chrow>
+        </choicetable>
+      </step>
+      <step>
+        <cmd><xmlelement>choicetable</xmlelement> <xmlatt>expanse</xmlatt></cmd>
+        <choicetable expanse="page">
+          <chhead>
+            <choptionhd>Do something</choptionhd>
+            <chdeschd>Or Else this</chdeschd>
+          </chhead>
+          <chrow>
+            <choption>Do this</choption>
+            <chdesc>and this will happen</chdesc>
+          </chrow>
+          <chrow>
+            <choption>Do that</choption>
+            <chdesc>and that will happen</chdesc>
+          </chrow>
+        </choicetable>
+      </step>
+      <step xml:lang="en">
+        <cmd><xmlelement>choicetable</xmlelement> no header, en</cmd>
+        <choicetable>
+          <chrow>
+            <choption>Do this</choption>
+            <chdesc>and this will happen</chdesc>
+          </chrow>
+          <chrow>
+            <choption>Do that</choption>
+            <chdesc>and that will happen</chdesc>
+          </chrow>
+        </choicetable>
+      </step>
+      <step xml:lang="de">
+        <cmd><xmlelement>choicetable</xmlelement> no header, de</cmd>
+        <choicetable>
+          <chrow>
+            <choption>Do this</choption>
+            <chdesc>and this will happen</chdesc>
+          </chrow>
+          <chrow>
+            <choption>Do that</choption>
+            <chdesc>and that will happen</chdesc>
+          </chrow>
+        </choicetable>
+      </step>
+    </steps>
+  </taskbody>
+</task>
