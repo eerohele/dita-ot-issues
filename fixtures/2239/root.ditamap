@@ -2,8 +2,9 @@
 
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 
-<map id="map" title="DITA Map">
+<map id="map" title="DITA Map" chunk="to-content">
   <topicref href="table.dita"/>
   <topicref href="simpletable.dita"/>
   <topicref href="choicetable.dita"/>
+  <topicref href="properties.dita"/>
 </map>

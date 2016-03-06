@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+
+<reference id="properties">
+  <title><xmlelement>properties</xmlelement></title>
+
+  <reference id="regular">
+    <title><xmlelement>properties</xmlelement> regular</title>
+
+    <refbody>
+      <properties>
+        <prophead>
+          <proptypehd>Visual Element</proptypehd>
+          <propvaluehd>Value</propvaluehd>
+          <propdeschd>Implication</propdeschd>
+        </prophead>
+        <property>
+          <proptype>color</proptype>
+          <propvalue>red</propvalue>
+          <propdesc>depicts anger</propdesc>
+        </property>
+        <property>
+          <proptype>color</proptype>
+          <propvalue>green</propvalue>
+          <propdesc>depicts permission</propdesc>
+        </property>
+      </properties>
+    </refbody>
+  </reference>
+
+  <reference id="missing-prophead-en" xml:lang="en">
+    <title><xmlelement>properties</xmlelement> with missing <xmlelement>prophead</xmlelement> (en)</title>
+
+    <refbody>
+      <properties>
+        <property>
+          <proptype>color</proptype>
+          <propvalue>red</propvalue>
+          <propdesc>depicts anger</propdesc>
+        </property>
+        <property>
+          <proptype>color</proptype>
+          <propvalue>green</propvalue>
+          <propdesc>depicts permission</propdesc>
+        </property>
+      </properties>
+    </refbody>
+  </reference>
+
+  <reference id="missing-prophead-fr" xml:lang="de">
+    <title><xmlelement>properties</xmlelement> with missing <xmlelement>prophead</xmlelement> (de)</title>
+
+    <refbody>
+      <properties>
+        <property>
+          <proptype>color</proptype>
+          <propvalue>red</propvalue>
+          <propdesc>depicts anger</propdesc>
+        </property>
+        <property>
+          <proptype>color</proptype>
+          <propvalue>green</propvalue>
+          <propdesc>depicts permission</propdesc>
+        </property>
+      </properties>
+    </refbody>
+  </reference>
+
+  <reference id="missing-proptype">
+    <title><xmlelement>properties</xmlelement> with missing <xmlelement>proptype</xmlelement></title>
+    <refbody>
+      <properties>
+        <prophead>
+          <proptypehd>Visual Element</proptypehd>
+          <propvaluehd>Value</propvaluehd>
+          <propdeschd>Implication</propdeschd>
+        </prophead>
+        <property>
+          <proptype>color</proptype>
+          <propvalue>red</propvalue>
+          <propdesc>depicts anger</propdesc>
+        </property>
+        <property>
+          <propvalue>green</propvalue>
+          <propdesc>depicts permission</propdesc>
+        </property>
+      </properties>
+    </refbody>
+  </reference>
+
+  <reference id="missing-prophead-and-propvalue">
+    <title><xmlelement>properties</xmlelement> with missing <xmlelement>prophead</xmlelement> and <xmlelement>propvalue</xmlelement></title>
+    <refbody>
+      <properties>
+        <property>
+          <proptype>color</proptype>
+          <propvalue>red</propvalue>
+          <propdesc>depicts anger</propdesc>
+        </property>
+        <property>
+          <proptype>color</proptype>
+          <propdesc>depicts permission</propdesc>
+        </property>
+      </properties>
+    </refbody>
+  </reference>
+</reference>
