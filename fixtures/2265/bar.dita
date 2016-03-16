@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+
+<topic id="bar">
+  <title>bar</title>
+
+  <body>
+    <p>bar</p>
+  </body>
+</topic>
