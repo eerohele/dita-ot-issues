@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+
+<map id="map" title="DITA Map">
+  <topicref href="topic1.dita"/>
+
+  <reltable>
+    <relrow>
+      <relcell>
+        <topicref href="topic1.dita"/>
+      </relcell>
+      <relcell>
+        <topicref scope="external" format="html" href="http://www.dita-ot.org">
+          <topicmeta>
+            <navtitle>foo <text deliveryTarget="pdf">bar</text></navtitle>
+            <linktext>foo <text deliveryTarget="pdf">bar</text></linktext>
+          </topicmeta>
+        </topicref>
+        <topicref scope="external" format="dita" href="https://raw.githubusercontent.com/dita-ot/docs/develop/getting-started/index.dita">
+          <topicmeta>
+            <navtitle>baz <text deliveryTarget="pdf">quux</text></navtitle>
+            <linktext>baz <text deliveryTarget="pdf">quux</text></linktext>
+          </topicmeta>
+        </topicref>
+        <topicref scope="peer" format="txt" href="peer.txt">
+          <topicmeta>
+            <navtitle>cargle <text deliveryTarget="pdf">blaa</text></navtitle>
+            <linktext>cargle <text deliveryTarget="pdf">blaa</text></linktext>
+          </topicmeta>
+        </topicref>
+      </relcell>
+    </relrow>
+  </reltable>
+</map>
