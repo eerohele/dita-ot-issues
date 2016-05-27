@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+
+<map id="map" title="DITA Map">
+  <topicref href="topic1.dita"/>
+  <topicref href="topic2.dita"/>
+
+  <reltable>
+    <relrow>
+      <relcell>
+        <topicref href="topic1.dita"/>
+      </relcell>
+      <relcell>
+        <topicref href="topic2.dita">
+          <topicmeta>
+              <linktext>Enable Third-Party Cookies for <ph><tm tmtype="reg" tmowner="Blackboard, Inc."
+                          trademark="blackboard">Blackboard</tm></ph></linktext>
+          </topicmeta>
+        </topicref>
+      </relcell>
+    </relrow>
+  </reltable>
+</map>
