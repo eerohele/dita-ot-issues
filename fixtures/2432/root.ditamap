@@ -4,6 +4,7 @@
 
 <map id="map" title="DITA Map">
   <topicref href="topic1.dita"/>
+  <topicref href="topic2.dita"/>
 
   <reltable>
     <relheader>
@@ -14,10 +15,16 @@
           </topicmeta>
         </topichead>
       </relcolspec>
+      <relcolspec type="topic">
+        <title>bar</title>
+      </relcolspec>
     </relheader>
     <relrow>
       <relcell>
         <topicref href="topic1.dita"/>
+      </relcell>
+      <relcell>
+        <topicref href="topic2.dita"/>
       </relcell>
     </relrow>
   </reltable>
