@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+
+<map id="map" title="DITA Map">
+  <topicref href="topic1.dita"/>
+
+  <reltable>
+    <relheader>
+      <relcolspec type="topic">
+        <topichead toc="no" print="no">
+          <topicmeta>
+            <navtitle>See also</navtitle>
+          </topicmeta>
+        </topichead>
+      </relcolspec>
+    </relheader>
+    <relrow>
+      <relcell>
+        <topicref href="topic1.dita"/>
+      </relcell>
+    </relrow>
+  </reltable>
+</map>
