@@ -3,21 +3,22 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 
 <map id="map" title="DITA Map">
-  <mapref href="../common/keydefs.ditamap" processing-role="resource-only"/>
-
-  <keydef keys="foo" href="topic1.dita"/>
-  <keydef keys="bar" href="topic2.dita"/>
-
-  <topicref keyref="foo"/>
-  <topicref keyref="bar"/>
-
+  <topicref href="topic1.dita"/>
+  <topicref href="../topic2.dita"/>
+  <topicref href="../topic3.dita#topic3-nested"/>
   <reltable>
+    <relheader>
+      <relcolspec type="topic"/>
+      <relcolspec type="topic"/>
+    </relheader>
     <relrow>
       <relcell>
-        <topicref keyref="foo"/>
+        <topicref href="topic1.dita"/>
+        <topicref href="../topic3.dita"/>
       </relcell>
       <relcell>
-        <topicref keyref="bar"/>
+        <topicref href="../topic2.dita"/>
+        <topicref href="../topic3.dita#topic3-nested"/>
       </relcell>
     </relrow>
   </reltable>
