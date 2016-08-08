@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+
+<topic id="topic2" xml:lang="en-us">
+  <title>Topic 2</title>
+
+  <body>
+    <p id="p">foo</p>
+  </body>
+
+  <topic id="topic2-nested" xml:lang="en-us">
+    <title>Topic 2 nested</title>
+
+    <body>
+      <p id="p2">bar</p>
+    </body>
+  </topic>
+</topic>
