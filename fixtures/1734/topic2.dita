@@ -1,0 +1,9 @@
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+
+<topic id="topic2">
+  <title>Topic 2</title>
+
+  <body>
+    <p id="p"><xref href="topic3.dita"/></p>
+  </body>
+</topic>

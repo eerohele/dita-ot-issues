@@ -1,0 +1,7 @@
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+
+<map title="DITA Map">
+  <topicref href="topic1.dita"/>
+  <topicref href="topic2.dita" processing-role="resource-only"/>
+  <topicref href="topic3.dita" processing-role="resource-only"/>
+</map>
