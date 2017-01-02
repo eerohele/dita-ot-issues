@@ -4,4 +4,6 @@
   <topicref href="topic1.dita"/>
   <topicref href="topic2.dita" processing-role="resource-only"/>
   <topicref href="topic3.dita" processing-role="resource-only"/>
+  <topicref href="topic4.dita" processing-role="resource-only"/>
+  <mapref href="submap.ditamap"/>
 </map>

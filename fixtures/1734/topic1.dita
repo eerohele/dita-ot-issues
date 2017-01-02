@@ -6,4 +6,8 @@
   <body>
     <p conref="topic2.dita#topic2/p"/>
   </body>
+
+  <related-links>
+    <link href="topic4.dita"/>
+  </related-links>
 </topic>

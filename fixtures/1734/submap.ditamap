@@ -1,0 +1,5 @@
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+
+<map title="DITA SubMap">
+  <topicref href="topic4.dita"/>
+</map>
