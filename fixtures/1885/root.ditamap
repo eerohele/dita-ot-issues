@@ -1,0 +1,11 @@
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+
+<bookmap id="book">
+  <backmatter>
+    <booklists>
+      <glossarylist>
+        <topicref href="glossary.dita" print="yes"/>
+      </glossarylist>
+    </booklists>
+  </backmatter>
+</bookmap>

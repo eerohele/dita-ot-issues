@@ -1,0 +1,8 @@
+<!DOCTYPE dita PUBLIC "-//OASIS//DTD DITA Composite//EN" "ditabase.dtd">
+
+<dita>
+ <glossentry id="abc123">
+    <glossterm>Term 1</glossterm>
+    <glossdef>Definition 1</glossdef>
+  </glossentry>
+</dita>
